@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Title -->
+    <title>Mr. Match</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui, viewport-fit=cover">
+    <meta name="theme-color" content="#FF50A2">
+    <meta name="robots" content="index, follow">
+
+
+    <!-- Favicons Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="home/vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="home/vendor/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="home/vendor/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="home/css/style.css">
+    <link rel="stylesheet" type="text/css" href="home/css/landing.css">
+    <link rel="stylesheet" type="text/css" href="home/css/pages.css">
+    <!-- SWIPER-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script src="https://kit.fontawesome.com/648276dae5.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+</head>
+
+<body>
+    <div class="page-wraper">
+        <!-- Preloader -->
+        <div id="loading-area" class="loading-page-1">
+            <div class="loader">
+                <div class="loading-dot"></div>
+            </div>
+        </div>
+        <!-- Preloader end-->
+
+        <!-- Header -->
+        <header class="header ">
+            <div class="container">
+                <div class="main-bar">
+                    <div style="display: flex; align-items: center;">
+                        <div class="logo-header">
+                            <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                        </div>
+                        <div class="nav-menu">
+                            <ul class="menu-list">
+                                <li><a href="product.html">Product</a>
+                                    <ul class="dropdown">
+                                        <li><a href="feature.html">Premium Feature</a></li>
+                                        <li><a href="subcription-tiers.html">Subcription Tiers</a>
+                                            <ul>
+                                                <li><a href="fearture-plus.html">Mr.Match Plus</a></li>
+                                                <li><a href="fearture-gold.html">Mr.Match Gold</a></li>
+                                                <li><a href="fearture-platinum.html">Mr.Match Platinum</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="fearture-plus.html">Mr.Match Select</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="learn.html" target="_blank">Learn</a></li>
+                                <li><a href="safety.html" target="_blank">Safety</a>
+                                    <ul class="dropdown">
+                                        <li><a href="guideline.html">Community Guideline</a></li>
+                                        <li><a href="policy.html">Safety & Policy</a>
+
+                                        </li>
+                                        <li><a href="safety-tips.html">Safety Tips</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" target="_blank">Support</a></li>
+                                <li><a href="#" target="_blank">Download</a></li>
+                                <li class="d-md-none"><a href="#" target="_blank" data-bs-toggle="modal"
+                                        data-bs-target="#languageModal">Language</a></li>
+                                <li class="d-md-none"><a href="#" target="_blank" data-bs-toggle="modal"
+                                        data-bs-target="#loginModal">Login</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="btn btn-transparent btn-sm ms-3 text-light d-none d-md-inline-block" target="_blank"
+                            data-bs-toggle="modal" data-bs-target="#languageModal" href="#"><svg focusable="false"
+                                aria-hidden="true" role="presentation" viewBox="0 0 12 12" width="24px" height="24px"
+                                style="margin-right: 10px;">
+                                <path fill="#fff"
+                                    d="M11.38,3.97c-.2-.19-.44-.34-.7-.44-.26-.1-.54-.15-.83-.15h-2.13v-1.38c0-.53-.23-1.04-.63-1.42-.41-.38-.95-.59-1.53-.59H2.16C1.59,0,1.04,.21,.63,.59c-.41,.38-.63,.89-.63,1.42v3.16c0,.26,.06,.52,.16,.77,.11,.24,.27,.46,.47,.65,.41,.38,.95,.59,1.53,.59h2.13v1.38c0,.26,.05,.52,.16,.76,.11,.24,.27,.46,.47,.65,.19,.19,.43,.34,.69,.44,.26,.1,.54,.16,.82,.15h3.41c.28,0,.56-.05,.83-.15,.26-.1,.5-.25,.7-.43,.4-.38,.63-.88,.64-1.42v-3.17c0-.26-.05-.52-.16-.77-.11-.24-.27-.46-.47-.65ZM2.16,6.27c-.32,0-.62-.12-.84-.32-.22-.21-.35-.49-.35-.78V2.01c0-.15,.03-.29,.09-.43,.06-.13,.15-.26,.26-.36,.11-.1,.24-.18,.39-.24,.15-.06,.3-.08,.46-.08h3.4c.32,0,.62,.12,.84,.32,.22,.21,.35,.49,.35,.78v3.16c0,.29-.13,.57-.35,.78-.22,.21-.53,.32-.84,.33H2.16Zm8.89,2.28c0,.15-.03,.29-.09,.42-.06,.13-.15,.26-.26,.36-.11,.1-.24,.18-.39,.24-.14,.05-.3,.08-.46,.08h-3.41c-.16,0-.31-.03-.46-.08-.14-.06-.28-.14-.39-.24-.22-.21-.35-.49-.35-.78v-1.38h.31c.36,0,.71-.08,1.02-.24,.31-.16,.58-.38,.78-.66l-1.09,2.6v.05h.88l.34-.81h1.38l.35,.81h.94l-1.62-3.84h-.64l-.19,.45c0-.11,0-.22,0-.33v-.92h2.13c.16,0,.31,.03,.46,.08,.15,.06,.28,.14,.39,.24,.11,.1,.2,.23,.26,.36,.06,.13,.09,.28,.09,.43v3.17Zm-3.33-1.09l.28-.79,.2-.64,.21,.64,.26,.79h-.95Z">
+                                </path>
+                                <path fill="#fff"
+                                    d="M5.94,5.92l.4-.71-.13-.04c-.62-.14-1.21-.37-1.75-.68,.47-.49,.82-1.08,1.01-1.71h.8v-.69h-1.98l.15-.11-.1-.1c-.23-.22-.48-.42-.76-.59h-.06l-.08-.08-.61,.42,.15,.1c.14,.1,.27,.2,.39,.31l.06,.04H1.38v.69h.84c.22,.63,.56,1.21,1.02,1.71-.55,.33-1.16,.57-1.81,.68l-.17,.04,.4,.71h.11c.74-.2,1.45-.51,2.07-.94,.62,.39,1.29,.69,2,.9l.11,.04Zm-1.32-3.15c-.18,.45-.45,.86-.79,1.22-.35-.35-.62-.77-.79-1.22h1.59Z">
+                                </path>
+                            </svg>Language</a>
+                        <a class="btn btn-light btn-sm ms-3 d-none d-md-inline-block" target="_blank"
+                            data-bs-toggle="modal" data-bs-target="#loginModal" href="#">Login</a>
+                        <a href="javascript:void(0);" class="menu-handle">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.5 10H17.5" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M2.5 5H17.5" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M2.5 15H17.5" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+
+
+                </div>
+        </header>
+        <!-- Header -->
+
+        <!-- Content -->
+        <div class="page-content" style="padding-top: 100px;">
+            <section class="py-4 bg-dark">
+                
+                <h1 class="text-center">Subscription Tiers</h1>
+                <span class="text-center d-block m-auto m-0 text-light">Upgrade to Plus, Gold, or Platinum for an enhanced Tinder experience.</span>
+                <div class="container">
+                    <div class="row py-4">
+                        <div class="col-md-4">
+                            <div class="card tier py-4 border bg-dark-2">
+                                <img src="assets/images/logo.png" alt="">
+                                <ul class="sub-list">
+                                    <li>
+                                        Unlimited Likes
+                                    </li>
+                                    <li>
+                                        Unlimited Rewinds
+                                    </li>
+                                    <li>
+                                        Passport™ To Any Location
+                                    </li>
+                                    <li>
+                                        Hide Advertisements
+                                    </li>
+                                    <li>
+                                        Go Incognito
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-4"><div class="card tier py-4 border bg-dark-2">
+                            <img src="assets/images/logo.png" alt="">
+                            <ul class="sub-list">
+                                <li>
+                                    See Who Likes You
+                                </li>
+                                <li>
+                                    New Top Picks every day
+                                </li>
+                                <li>
+                                    5 Super Likes a week
+                                </li>
+                                <li>
+                                    1 Free Boost a month
+                                </li>
+                                <li>
+                                    And everything you love from Mr.Match Plus®!
+                                </li>
+                            </ul>
+                        </div></div>
+                        <div class="col-md-4"><div class="card tier py-4 border bg-dark-2">
+                            <img src="assets/images/logo.png" alt="">
+                            <ul class="sub-list">
+                                <li>
+                                    Message before Matching
+
+                                </li>
+                                <li>
+                                    Prioritized Likes
+                                </li>
+                                <li>
+                                    See the Likes you’ve sent in the last 7 days
+                                </li>
+                                <li>
+                                    And everything you love from Mr.Match Gold™!
+                                </li>
+                            </ul>
+                        </div></div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-4">
+                <h1 class="text-center m-0 m-auto">Subscription Tiers at a Glance</h1>
+                <div class="container">
+                    <div class="row">
+                        <table border="1" class="subscriptions">
+                            <caption class="hide">Subscription Tiers at a Glance</caption>
+                            <thead class="bg-dark">
+                              <tr class="">
+                                <th class="">
+                                  Features</th>
+                                <th
+                                  class="">
+                                  Mr.Match Plus</th>
+                                  <th
+                                  class="">
+                                  Mr.Match Gold</th>
+                                  <th
+                                  class="">
+                                  Mr.Match Sup</th>
+                                  <th
+                                  class="">
+                                  Mr.Match Platinum™</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td
+                                  class="">
+                                  <a class="" href="product.html">
+                                    <div class=""><span> <!-- -->Match. Chat. Meet.<!-- --> </span><span
+                                        class=""></span></div>
+                                  </a></td>
+                                <td "><span
+                                    class="hide">Mr.Match® is available for free</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="unknown"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Plus®</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--bg-grad)"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Gold™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--primary)"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Platinum™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--text-light)"></circle>
+                                    </svg></div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  class="">
+                                  <span>
+                                    <div class=""><span> <!-- -->Unlimited Likes<!-- --> </span><span
+                                        class=""></span></div>
+                                  </span></td>
+                                <td "><span
+                                    class="hide">Mr.Match® is available for free</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Plus®</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--bg-grad)"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Gold™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--primary)"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Platinum™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--text-light)"></circle>
+                                    </svg></div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  class="">
+                                  <a class=""
+                                    href="#"
+                                    title="Accidentally Liked or Noped someone? Rewind and try again">
+                                    <div class=""><span> <!-- -->Unlimited Rewinds<!-- --> </span><span
+                                        class=""></span></div>
+                                  </a></td>
+                                <td "><span
+                                    class="hide">Mr.Match® is available for free</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Plus®</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--bg-grad)"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Gold™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--primary)"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Platinum™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--text-light)"></circle>
+                                    </svg></div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  class="">
+                                  <a class=""
+                                    href="#"
+                                    title="Passport™ is a premium feature that allows you to like, match and chat with others around the world by simply searching for a city or dropping a pin on the map.">
+                                    <div class=""><span> <!-- -->Passport™ To Any Location<!-- --> </span><span
+                                        class=""></span></div>
+                                  </a></td>
+                                <td "><span
+                                    class="hide">Mr.Match® is available for free</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Plus®</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--bg-grad)"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Gold™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--primary)"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Platinum™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--text-light)"></circle>
+                                    </svg></div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  class="">
+                                  <span>
+                                    <div class=""><span> <!-- -->Hide Advertisements<!-- --> </span><span
+                                        class=""></span></div>
+                                  </span></td>
+                                <td "><span
+                                    class="hide">Mr.Match® is available for free</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Plus®</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--bg-grad)"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Gold™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--primary)"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Platinum™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--text-light)"></circle>
+                                    </svg></div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  class="">
+                                  <span>
+                                    <div class=""><span> <!-- -->Go Incognito<!-- --> </span><span
+                                        class=""></span></div>
+                                  </span></td>
+                                <td "><span
+                                    class="hide">Mr.Match® is available for free</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Plus®</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--bg-grad)"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Gold™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--primary)"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Platinum™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--text-light)"></circle>
+                                    </svg></div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  class="">
+                                  <a class="" href="feature.html">
+                                    <div class=""><span> *<!-- -->5 Super Likes a week<!-- --> </span><span
+                                        class=""></span></div>
+                                  </a></td>
+                                <td "><span
+                                    class="hide">Mr.Match® is available for free</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Plus®</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Gold™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--primary)"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Platinum™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--text-light)"></circle>
+                                    </svg></div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  class="">
+                                  <a class="" href="feature.html">
+                                    <div class=""><span> *<!-- -->1 Free Boost a month<!-- --> </span><span
+                                        class="">Free monthly Boost only available for 1 month or longer
+                                        subscriptions.</span></div>
+                                  </a></td>
+                                <td "><span
+                                    class="hide">Mr.Match® is available for free</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Plus®</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Gold™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--primary)"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Platinum™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--text-light)"></circle>
+                                    </svg></div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  class="">
+                                  <a class=""
+                                    href="#"
+                                    title="See Who Likes You &amp; More!">
+                                    <div class=""><span> <!-- -->See Who Likes You<!-- --> </span><span
+                                        class=""></span></div>
+                                  </a></td>
+                                <td "><span
+                                    class="hide">Mr.Match® is available for free</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Plus®</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Gold™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--primary)"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Platinum™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--text-light)"></circle>
+                                    </svg></div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  class="">
+                                  <a class=""
+                                    href="#">
+                                    <div class=""><span> <!-- -->New Top Picks every day<!-- --> </span><span
+                                        class=""></span></div>
+                                  </a></td>
+                                <td "><span
+                                    class="hide">Mr.Match® is available for free</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Plus®</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Gold™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--primary)"></circle>
+                                    </svg></div>
+                                </td>
+                                <td "><span class="hide">Mr.Match
+                                    Platinum™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--text-light)"></circle>
+                                    </svg></div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  class="">
+                                  <a class=""
+                                    href="#">
+                                    <div class=""><span> <!-- -->Message before Matching<!-- --> </span><span
+                                        class=""></span></div>
+                                  </a></td>
+                                <td "><span
+                                    class="hide">Mr.Match® is available for free</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Plus®</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Gold™</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Platinum™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--text-light)"></circle>
+                                    </svg></div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  class="">
+                                  <a class=""
+                                    href="#">
+                                    <div class=""><span> <!-- -->Prioritized Likes<!-- --> </span><span
+                                        class=""></span></div>
+                                  </a></td>
+                                <td "><span
+                                    class="hide">Mr.Match® is available for free</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Plus®</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Gold™</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Platinum™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--text-light)"></circle>
+                                    </svg></div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  class="">
+                                  <span>
+                                    <div class=""><span> <!-- -->See the Likes you’ve sent in the last 7 days<!-- --> </span><span
+                                        class=""></span></div>
+                                  </span></td>
+                                <td "><span
+                                    class="hide">Mr.Match® is available for free</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Plus®</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Gold™</span></td>
+                                <td "><span class="hide">Mr.Match
+                                    Platinum™</span>
+                                  <div class=" "><svg class=" " height="12" width="12" viewBox="0 0 24 24">
+                                      <circle cx="12" cy="12" r="12" fill="var(--text-light)"></circle>
+                                    </svg></div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="container-grid">
+                            <div class="container-item">
+                                <h2>Legal</h2>
+                                <ul>
+                                    <li><a href="privacy.html">Privacy</a></li>
+                                    <li><a href="terms.html">Terms</a></li>
+                                    <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                                </ul>
+                            </div>
+                            <div class="container-item">
+                                <h2>Careers</h2>
+                                <ul>
+                                    <li><a href="#">Careers Portal</a></li>
+                                    <li><a href="#">Tech Blog</a></li>
+                                </ul>
+                            </div>
+                            <div class="container-item">
+                                <h2>Social</h2>
+                                <ul class="social-area">
+                                    <li><a href="#">Careers Portal</a></li>
+                                    <li><a href="#">Tech Blog</a></li>
+                                </ul>
+                            </div>
+                            <div class="container-item">
+                                <ul class="">
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="#">Destinations</a></li>
+                                    <li><a href="#">Press Room</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="#">Promo Code</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="d-block d-md-flex py-4">
+                            <h2 class="py-3">Get the app!
+                            </h2>
+                            <div class="d-flex">
+                                <a style="flex-basis: 50%;" class="mx-4" href=""><img style="height: 48px;"
+                                        src="assets/images/apple-store.png" alt=""></a>
+                                <a style="flex-basis: 50%;" href=""><img style="height: 48px;"
+                                        src="assets/images/playstore.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <p>Single people, listen up: If you’re looking for love, want to start dating, or just keep
+                                it casual, you need to be on Tinder. With over 55 billion matches made, it’s the place
+                                to be to meet your next best match. Let’s be real, the dating landscape looks very
+                                different today, as most people are meeting online. With Tinder, the world’s most
+                                popular free dating app, you have millions of other single people at your fingertips and
+                                they’re all ready to meet someone like you. Whether you’re straight or in the LGBTQIA
+                                community, Tinder’s here to bring you all the sparks.</p>
+                            <p>There really is something for everyone on Tinder. Want to get into a relationship? You
+                                got it. Trying to find some new friends? Say no more. New kid on campus and looking to
+                                make the most of your college experience? Tinder U’s got you covered. Tinder isn’t your
+                                average dating site — it’s the most diverse dating app, where adults of all backgrounds
+                                and experiences are invited to make connections, memories, and everything in between.
+                            </p>
+                        </div>
+                        <div class="footer-bottom justify-content-between">
+                            <div class="menu-footer">
+                                <a href="faq.html">FAQ</a>
+                                <span>/</span>
+                                <a href="safety-tips.html">Safety Tips</a>
+                                <span>/</span>
+                                <a href="terms.html">Terms</a>
+                                <span>/</span>
+                                <a href="cookie-policy.html">Cookie Policy</a>
+                                <span>/</span>
+                                <a href="privacy.html">Privacy Settings</a>
+                            </div>
+                            <span class="copyright">© 2024 MrMatch, LLC, All Rights Reserved.</span>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <button class="scroltop ti-arrow-up"></button>
+        <div class="menu-overlay"></div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade modal-primary" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body">
+                    <div class="brand"><img src="assets/images/logo.png" alt=""></div>
+                    <h3>Get Started</h3>
+                    <span class="mb-4 d-block">By tapping Log In, you agree to our Terms. Learn how we process your data
+                        in our Privacy Policy, and Cookie Policy</span>
+                    <div class="social-area">
+                        <a href="dating.html" class="btn btn-icon icon-start btn-tp w-100">
+                            <img src="assets/images/social-icon/google.svg" alt="">
+                            <span>Sign in with Google</span>
+                        </a>
+                        <a href="dating.html" class="btn btn-icon icon-start w-100 btn-facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <span>Sign in with Facebook</span>
+                        </a>
+                        <a href="dating.html" class="btn btn-icon btn-white icon-start w-100">
+                            <img src="assets/images/social-icon/telephone.svg" alt="">
+                            <span>Sign in with phone No.</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modal-primary" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="loginModal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body">
+                    <div class="brand"><img src="assets/images/logo.png" alt=""></div>
+                    <h3>Create account</h3>
+                    <span class="mb-4 d-block">By tapping Log In, you agree to our Terms. Learn how we process your data
+                        in our <a href="#">Privacy Policy</a>, and <a href="#">Cookie Policy</a></span>
+                    <div class="social-area">
+                        <a href="dating.html" class="btn btn-icon icon-start btn-tp w-100">
+                            <img src="assets/images/social-icon/google.svg" alt="">
+                            <span>Sign in with Google</span>
+                        </a>
+                        <a href="dating.html" class="btn btn-icon icon-start w-100 btn-facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <span>Sign in with Facebook</span>
+                        </a>
+                        <a target="_blank" data-bs-toggle="modal" data-bs-target="#registerPhoneModal" href="#"
+                            data-dismiss="modal" class="btn btn-icon btn-white icon-start w-100">
+                            <img src="assets/images/social-icon/telephone.svg" alt="">
+                            <span>Sign in with phone Number</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modal-primary modal-sm" id="registerPhoneModal" tabindex="-1" role="dialog"
+        aria-labelledby="loginModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body">
+                    <div class="brand"><img src="assets/images/logo.png" alt=""></div>
+                    <h3>Can we get your number?</h3>
+                    <input type="tel" id="phoneNumber" required />
+                    <span class="w-100 d-block mt-3 ">We’ll text you a code to verify you’re really you. Message and
+                        data rates may apply. <a class="" href="#" target="_blank" rel="noopener noreferrer">What
+                            happens if your number changes?</a></span>
+                    <a class="btn btn-primary btn-sm mt-3" target="_blank" data-bs-toggle="modal" data-dismiss="modal"
+                        data-bs-target="#otpModal" href="#">Next</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modal-primary modal-sm" id="otpModal" tabindex="-1" role="dialog"
+        aria-labelledby="loginModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body">
+                    <div class="brand"><img src="assets/images/logo.png" alt=""></div>
+                    <h3>Enter your code</h3>
+                    <div class="d-flex w-100 pb-4 px-4" style="justify-content:space-between;">
+                        <div class="">+1987643244</div><a class="fw-bold" href="#">Resend</a>
+                    </div>
+                    <form id="otp-form">
+                        <input type="number" id="otp-1" name="otp-1" maxlength="1" required>
+                        <input type="number" id="otp-2" name="otp-2" maxlength="1" required>
+                        <input type="number" id="otp-3" name="otp-3" maxlength="1" required>
+                        <input type="number" id="otp-4" name="otp-4" maxlength="1" required>
+                        <input type="number" id="otp-5" name="otp-5" maxlength="1" required>
+                        <input type="number" id="otp-6" name="otp-6" maxlength="1" required>
+
+                    </form>
+                    <div class="w-100 text-start d-block px-4 py-2"><a target="_blank" data-bs-toggle="modal"
+                            data-dismiss="modal" data-bs-target="#registerPhoneModal" href="#">Update Contact Info</a>
+                    </div>
+                    <a class="btn btn-primary btn-sm mt-3" href="create.html">Next</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modal-primary" id="languageModal" tabindex="-1" role="dialog" aria-labelledby="languageModal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content text-start">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body text-start">
+                    <div class="brand mb-4"><img src="assets/images/logo.png" alt=""></div>
+                    <h4>Choose a language</h4>
+                    <span class="d-block border-bottom">English</span>
+                    <div id="language-grid">
+                        <ul id="language-list">
+                            <li class="language-item" role="menuitem"><a aria-label="English" aria-current="true"
+                                    lang="en" class="" href="/"><span>English</span><span class="">English</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Arabic" aria-current="false"
+                                    lang="ar" class="" href="/ar"><span>العربية</span><span class="">Arabic</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Azerbaijani" aria-current="false"
+                                    lang="az" class="" href="/az"><span>Azeri</span><span
+                                        class="">Azerbaijani</span></a></li>
+                            <li class="language-item" role="menuitem"><a aria-label="Bulgarian" aria-current="false"
+                                    lang="bg" class="" href="/bg"><span>Български</span><span
+                                        class="">Bulgarian</span></a></li>
+                            <li class="language-item" role="menuitem"><a aria-label="Bosnian" aria-current="false"
+                                    lang="bs" class="" href="/bs"><span>Bosanski</span><span class="">Bosnian</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Catalan" aria-current="false"
+                                    lang="ca" class="" href="/ca"><span>Català</span><span class="">Catalan</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Czech" aria-current="false"
+                                    lang="cs" class="" href="/cs"><span>Čeština</span><span class="">Czech</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Danish" aria-current="false"
+                                    lang="da" class="" href="/da"><span>Dansk</span><span class="">Danish</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="German" aria-current="false"
+                                    lang="de" class="" href="/de"><span>Deutsch</span><span class="">German</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Greek" aria-current="false"
+                                    lang="el" class="" href="/el"><span>Ελληνικά</span><span class="">Greek</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="English (Australia)"
+                                    aria-current="false" lang="en-AU" class="" href="/en-AU"><span>English
+                                        (Australia)</span><span class="">English (Australia)</span></a></li>
+                            <li class="language-item" role="menuitem"><a aria-label="English (United Kingdom)"
+                                    aria-current="false" lang="en-GB" class="" href="/en-GB"><span>English
+                                        (UK)</span><span class="">English
+                                        (United Kingdom)</span></a></li>
+                            <li class="language-item" role="menuitem"><a aria-label="Spanish" aria-current="false"
+                                    lang="es" class="" href="/es"><span>Español</span><span class="">Spanish</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Spanish (Argentina)"
+                                    aria-current="false" lang="es-AR" class="" href="/es-AR"><span>Español
+                                        (Argentina)</span><span class="">Spanish (Argentina)</span></a></li>
+                            <li class="language-item" role="menuitem"><a aria-label="Spanish (Spain)"
+                                    aria-current="false" lang="es-ES" class="" href="/es-ES"><span>Español
+                                        (España)</span><span class="">Spanish (Spain)</span></a></li>
+                            <li class="language-item" role="menuitem"><a aria-label="Estonian" aria-current="false"
+                                    lang="et" class="" href="/et"><span>Eesti
+                                        keel</span><span class="">Estonian</span></a></li>
+                            <li class="language-item" role="menuitem"><a aria-label="Basque" aria-current="false"
+                                    lang="eu" class="" href="/eu"><span>Euskera</span><span class="">Basque</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Finnish" aria-current="false"
+                                    lang="fi" class="" href="/fi"><span>Suomi</span><span class="">Finnish</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="French" aria-current="false"
+                                    lang="fr" class="" href="/fr"><span>Français (France)</span><span
+                                        class="">French</span></a></li>
+                            <li class="language-item" role="menuitem"><a aria-label="French (Canada)"
+                                    aria-current="false" lang="fr-CA" class="" href="/fr-CA"><span>Français
+                                        (Canada)</span><span class="">French (Canada)</span></a></li>
+                            <li class="language-item" role="menuitem"><a aria-label="Galician" aria-current="false"
+                                    lang="gl" class="" href="/gl"><span>Galego</span><span class="">Galician</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Croatian" aria-current="false"
+                                    lang="hr" class="" href="/hr"><span>Hrvatski</span><span
+                                        class="">Croatian</span></a></li>
+                            <li class="language-item" role="menuitem"><a aria-label="Hungarian" aria-current="false"
+                                    lang="hu" class="" href="/hu"><span>Magyar</span><span class="">Hungarian</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Italian" aria-current="false"
+                                    lang="it" class="" href="/it"><span>Italiano</span><span class="">Italian</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Malay" aria-current="false"
+                                    lang="ms" class="" href="/ms"><span>Bahasa
+                                        Melayu</span><span class="">Malay</span></a></li>
+                            <li class="language-item" role="menuitem"><a aria-label="Norwegian Bokmål"
+                                    aria-current="false" lang="nb" class="" href="/nb"><span>Norsk (bokmål)</span><span
+                                        class="">Norwegian
+                                        Bokmål</span></a></li>
+                            <li class="language-item" role="menuitem"><a aria-label="Dutch" aria-current="false"
+                                    lang="nl" class="" href="/nl"><span>Nederlands</span><span class="">Dutch</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Polish" aria-current="false"
+                                    lang="pl" class="" href="/pl"><span>Polski</span><span class="">Polish</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Portuguese" aria-current="false"
+                                    lang="pt" class="" href="/pt"><span>Português (Brasil)</span><span
+                                        class="">Portuguese</span></a></li>
+                            <li class="language-item" role="menuitem"><a aria-label="Portuguese (Portugal)"
+                                    aria-current="false" lang="pt-PT" class="" href="/pt-PT"><span>Português
+                                        (Portugal)</span><span class="">Portuguese (Portugal)</span></a></li>
+                            <li class="language-item" role="menuitem"><a aria-label="Romanian" aria-current="false"
+                                    lang="ro" class="" href="/ro"><span>Română</span><span class="">Romanian</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Russian" aria-current="false"
+                                    lang="ru" class="" href="/ru"><span>Русский</span><span class="">Russian</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Swedish" aria-current="false"
+                                    lang="sv" class="" href="/sv"><span>Svenska</span><span class="">Swedish</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Turkish" aria-current="false"
+                                    lang="tr" class="" href="/tr"><span>Türkçe</span><span class="">Turkish</span></a>
+                            </li>
+                            <li class="language-item" role="menuitem"><a aria-label="Ukrainian" aria-current="false"
+                                    lang="uk" class="" href="/uk"><span>Українська</span><span
+                                        class="">Ukrainian</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const phoneInputField = document.querySelector("#phoneNumber");
+        const phoneInput = window.intlTelInput(phoneInputField, {
+            initialCountry: "US",
+            separateDialCode: true,
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        });
+
+        // Add event listener for when the phone number changes
+        phoneInputField.addEventListener("countrychange", () => {
+            console.log("Country changed to:", phoneInput.getSelectedCountryData().name);
+        });
+    </script>
+
+    <!-- JAVASCRIPT FILES ========================================= -->
+    <script src="home/vendor/global/global.min.js"></script>
+    <script src="home/vendor/wow/wow.js"></script>
+    <script src="home/vendor/owl-carousel/owl.carousel.js"></script>
+    <script src="home/vendor/particles/particles-app.js"></script>
+    <script src="home/vendor/particles/particles.js"></script>
+    <script src="home/js/dz.ajax.js"></script>
+    <script src="home/js/dz.carousel.js"></script>
+    <script src="home/js/custom.js"></script>
+</body>
+
+</html>

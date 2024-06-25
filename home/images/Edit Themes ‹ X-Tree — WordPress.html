@@ -1,0 +1,1824 @@
+<!DOCTYPE html>
+<!-- saved from url=(0079)https://x-tree.com.vn/wp-admin/theme-editor.php?file=front-page.php&theme=theme -->
+<html class="wp-toolbar" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>Edit Themes ‹ X-Tree — WordPress</title>
+<script type="text/javascript">
+addLoadEvent = function(func){if(typeof jQuery!=='undefined')jQuery(function(){func();});else if(typeof wpOnload!=='function'){wpOnload=func;}else{var oldonload=wpOnload;wpOnload=function(){oldonload();func();}}};
+var ajaxurl = '/wp-admin/admin-ajax.php',
+	pagenow = 'theme-editor',
+	typenow = '',
+	adminpage = 'theme-editor-php',
+	thousandsSeparator = ',',
+	decimalPoint = '.',
+	isRtl = 0;
+</script>
+<link rel="stylesheet" href="./Edit Themes ‹ X-Tree — WordPress_files/load-styles.php" media="all">
+<style>
+@media print { #wpadminbar { display:none; } }
+</style>
+<link rel="stylesheet" id="cfdb7-admin-style-css" href="./Edit Themes ‹ X-Tree — WordPress_files/admin-style.css" media="all">
+<link rel="stylesheet" id="wp-codemirror-css" href="./Edit Themes ‹ X-Tree — WordPress_files/codemirror.min.css" media="all">
+<link rel="stylesheet" id="acf-global-css" href="./Edit Themes ‹ X-Tree — WordPress_files/acf-global.css" media="all">
+<link rel="stylesheet" id="fm_menu_common-css" href="./Edit Themes ‹ X-Tree — WordPress_files/fm_common.css" media="all">
+<link rel="stylesheet" id="analyst_custom-css" href="./Edit Themes ‹ X-Tree — WordPress_files/customize.css" media="all">
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="cdp-css-global-css" href="./Edit Themes ‹ X-Tree — WordPress_files/cdp-global.min.css" media="all">
+<link rel="stylesheet" id="cdp-css-select-css" href="./Edit Themes ‹ X-Tree — WordPress_files/cdp-select.min.css" media="all">
+<link rel="stylesheet" id="cdp-tooltips-css-css" href="./Edit Themes ‹ X-Tree — WordPress_files/cdp.tooltip.min.css" media="all">
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/x-tree.com.vn\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+
+<script>
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"1","time":"1715569567","secure":"1"};/* ]]> */
+</script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/load-scripts.php"></script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/code-editor.min.js" id="code-editor-js"></script>
+<script id="code-editor-js-after">
+jQuery.extend( wp.codeEditor.defaultSettings, {"codemirror":{"indentUnit":4,"indentWithTabs":true,"inputStyle":"contenteditable","lineNumbers":true,"lineWrapping":true,"styleActiveLine":true,"continueComments":true,"extraKeys":{"Ctrl-Space":"autocomplete","Ctrl-\/":"toggleComment","Cmd-\/":"toggleComment","Alt-F":"findPersistent","Ctrl-F":"findPersistent","Cmd-F":"findPersistent"},"direction":"ltr","gutters":[],"mode":"php","autoCloseBrackets":true,"autoCloseTags":true,"matchBrackets":true,"matchTags":{"bothTags":true}},"csslint":{"errors":true,"box-model":true,"display-property-grouping":true,"duplicate-properties":true,"known-properties":true,"outline-none":true},"jshint":{"boss":true,"curly":true,"eqeqeq":true,"eqnull":true,"es3":true,"expr":true,"immed":true,"noarg":true,"nonbsp":true,"onevar":true,"quotmark":"single","trailing":true,"undef":true,"unused":true,"browser":true,"globals":{"_":false,"Backbone":false,"jQuery":false,"JSON":false,"wp":false}},"htmlhint":{"tagname-lowercase":true,"attr-lowercase":true,"attr-value-double-quotes":false,"doctype-first":false,"tag-pair":true,"spec-char-escape":true,"id-unique":true,"src-not-empty":true,"attr-no-duplication":true,"alt-require":true,"space-tab-mixed-disabled":"tab","attr-unsafe-chars":true}} );
+</script>
+<script id="analyst_custom-js-extra">
+var analyst_opt_localize = {"nonce":"36656d6038"};
+</script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/customize.js" id="analyst_custom-js"></script>
+		<style type="text/css"> #toplevel_page_weglot-settings .wp-menu-image.svg {
+				background-size: 24px auto !important;
+			}
+
+			#wp-admin-bar-weglot > .ab-item {
+				background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZyBmaWxsPSIjYTBhNWFhIj48cGF0aCBkPSJNMjEuNzM5IDkyLjU2NWw1MS44MjggMTI5LjczMiAyMy42Ni02MC4yNzkgMjQuMTQ0IDYwLjI3OUwxNzMuMiA5Mi41NjVoLTI4LjAwN2wtMjMuODIyIDU4Ljc1LTIzLjkwMi01OC43NS0yMy45MDIgNTguNzUtMjMuOTAyLTU4Ljc1SDIxLjczOXoiLz48cGF0aCBkPSJNMjEwLjAwNiA5Mi43MWMtMTcuODY2IDAtMzMuMTU3IDYuMzU4LTQ1Ljg3MyAxOS4wNzQtMTIuNzE1IDEyLjcxNi0xOC45OTMgMjguMDA2LTE4Ljk5MyA0NS43OTIgMCAxNy44NjcgNi4yNzggMzMuMTU4IDE4Ljk5MyA0NS44NzMgMTIuNzE2IDEyLjcxNiAyOC4wMDcgMTguOTkzIDQ1Ljg3MyAxOC45OTMgMTcuNzg2IDAgMzMuMDc3LTYuMjc3IDQ1Ljc5My0xOC45OTMgMTIuNzE1LTEyLjcxNSAxOS4wNzMtMjguMDA2IDE5LjA3My00NS44NzMgMC00LjUwNy0uNDgzLTguODUyLTEuMjg4LTEyLjk1N2gtNjMuNTc4djI1LjkxNGgzNi42OTljLTIuNzM3IDcuNTY1LTcuNDg1IDEzLjg0My0xNC4wODQgMTguNjcxLTYuNjggNC44My0xNC4yNDUgNy4yNDQtMjIuNjE1IDcuMjQ0LTEwLjc4NCAwLTE5Ljk1OC0zLjc4My0yNy41MjMtMTEuMzQ4LTcuNTY2LTcuNTY1LTExLjM0OC0xNi43NC0xMS4zNDgtMjcuNTI0IDAtMTAuNjIzIDMuNzgyLTE5Ljc5OCAxMS4zNDgtMjcuNDQzIDcuNTY1LTcuNjQ1IDE2Ljc0LTExLjUwOCAyNy41MjMtMTEuNTA4IDEwLjYyMyAwIDE5Ljc5OCAzLjg2MyAyNy41MjQgMTEuNDI4bDE4LjM1LTE4LjM1YTY3Ljk2MyA2Ny45NjMgMCAwMC0yMC43NjQtMTMuODQyYy03Ljg4Ny0zLjM4LTE2LjI1Ny01LjE1LTI1LjExLTUuMTV6Ii8+PC9nPjwvc3ZnPg==") !important;
+				background-size: 22px auto !important;
+				background-repeat: no-repeat !important;
+				background-position: 4px 5px !important;
+				padding-left: 30px !important;
+			}
+			.weglot-error-plugin{
+				clear: both;
+				margin-top: 10px;
+			}
+		</style>
+				<style type="text/css">
+			.wg-column-admin.tooltip {
+				position: relative;
+				display: inline-block;
+			}
+
+			.wg-column-admin.tooltip::before {
+				background: url('data:image/png;base64,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') no-repeat 0 0;
+				background-size: 20px;
+				content: " ";
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+			}
+
+			.wg-column-admin.tooltip .tooltiptext {
+				visibility: hidden;
+				width: 120px;
+				bottom: 100%;
+				left: 50%;
+				margin-left: -70px;
+				background-color: #18164c;
+				color: #fff;
+				text-align: center;
+				font-size: 14px;
+				padding: 10px;
+				border-radius: 6px;
+				opacity: 0.9;
+				position: absolute;
+				z-index: 1;
+			}
+
+			.wg-column-admin.tooltip .tooltiptext::after {
+				content: " ";
+				position: absolute;
+				top: 100%;
+				left: 50%;
+				margin-left: -5px;
+				border-width: 5px;
+				border-style: solid;
+				border-color: #18164c transparent transparent transparent;
+			}
+
+			.wg-column-admin.tooltip:hover .tooltiptext {
+				visibility: visible;
+			}
+
+		</style>
+		<script type="text/javascript">var _wpColorScheme = {"icons":{"base":"#a7aaad","focus":"#72aee6","current":"#fff"}};</script>
+	<link id="wp-admin-canonical" rel="canonical" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=front-page.php&amp;theme=theme">
+	<script>
+		if ( window.history.replaceState ) {
+			window.history.replaceState( null, null, document.getElementById( 'wp-admin-canonical' ).href + window.location.hash );
+		}
+	</script>
+	<link rel="icon" href="https://x-tree.com.vn/wp-content/uploads/2024/04/cropped-favicon-32x32.png" sizes="32x32">
+<link rel="icon" href="https://x-tree.com.vn/wp-content/uploads/2024/04/cropped-favicon-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://x-tree.com.vn/wp-content/uploads/2024/04/cropped-favicon-180x180.png">
+<meta name="msapplication-TileImage" content="https://x-tree.com.vn/wp-content/uploads/2024/04/cropped-favicon-270x270.png">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"></head>
+<body class="wp-admin wp-core-ui js acf-admin-5-3 acf-browser-chrome theme-editor-php auto-fold admin-bar branch-6-5 version-6-5-2 admin-color-fresh locale-en-us customize-support sticky-menu svg"><div class="cdp-copy-loader-overlay" style="opacity: 0">
+    <div class="cdp-text-overlay">
+      <h1 style="color: white; font-size: 25px;">Please wait, copying in progress...</h1>
+      <p>
+        If you’re making a lot of copies it can take a while
+        <br>(up to 5 minutes if you’re on a slow server).      </p>
+      <span>Average time is 8 copies per second.</span>
+    </div>
+    <div class="cdp-spinner"></div>
+  </div>
+<script type="text/javascript">
+	document.body.className = document.body.className.replace('no-js','js');
+</script>
+
+<script>
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+				request = true;
+	
+			b[c] = b[c].replace( rcs, ' ' );
+			// The customizer requires postMessage and CORS (if the site is cross domain).
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	
+</script>
+
+<div id="wpwrap">
+
+<div id="adminmenumain" role="navigation" aria-label="Main menu">
+<a href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=front-page.php&amp;theme=theme#wpbody-content" class="screen-reader-shortcut">Skip to main content</a>
+<a href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=front-page.php&amp;theme=theme#wp-toolbar" class="screen-reader-shortcut">Skip to toolbar</a>
+<div id="adminmenuback"></div>
+<div id="adminmenuwrap">
+<ul id="adminmenu">
+
+
+	<li class="wp-first-item wp-has-submenu wp-not-current-submenu menu-top menu-top-first menu-icon-dashboard menu-top-last" id="menu-dashboard">
+	<a href="https://x-tree.com.vn/wp-admin/index.php" class="wp-first-item wp-has-submenu wp-not-current-submenu menu-top menu-top-first menu-icon-dashboard menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-dashboard" aria-hidden="true"><br></div><div class="wp-menu-name">Dashboard</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Dashboard</li><li class="wp-first-item"><a href="https://x-tree.com.vn/wp-admin/index.php" class="wp-first-item">Home</a></li><li><a href="https://x-tree.com.vn/wp-admin/update-core.php">Updates <span class="update-plugins count-4"><span class="update-count">4</span></span></a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first" id="menu-posts">
+	<a href="https://x-tree.com.vn/wp-admin/edit.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-post" aria-hidden="true"><br></div><div class="wp-menu-name">Posts</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Posts</li><li class="wp-first-item"><a href="https://x-tree.com.vn/wp-admin/edit.php" class="wp-first-item">All Posts</a></li><li><a href="https://x-tree.com.vn/wp-admin/post-new.php">Add New Post</a></li><li><a href="https://x-tree.com.vn/wp-admin/edit-tags.php?taxonomy=category">Categories</a></li><li><a href="https://x-tree.com.vn/wp-admin/edit-tags.php?taxonomy=post_tag">Tags</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" id="menu-media">
+	<a href="https://x-tree.com.vn/wp-admin/upload.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-media" aria-hidden="true"><br></div><div class="wp-menu-name">Media</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Media</li><li class="wp-first-item"><a href="https://x-tree.com.vn/wp-admin/upload.php" class="wp-first-item">Library</a></li><li><a href="https://x-tree.com.vn/wp-admin/media-new.php">Add New Media File</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" id="menu-pages">
+	<a href="https://x-tree.com.vn/wp-admin/edit.php?post_type=page" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-page" aria-hidden="true"><br></div><div class="wp-menu-name">Pages</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Pages</li><li class="wp-first-item"><a href="https://x-tree.com.vn/wp-admin/edit.php?post_type=page" class="wp-first-item">All Pages</a></li><li><a href="https://x-tree.com.vn/wp-admin/post-new.php?post_type=page">Add New Page</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_wpcf7 menu-top-last" id="toplevel_page_wpcf7"><a href="https://x-tree.com.vn/wp-admin/admin.php?page=wpcf7" class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_wpcf7 menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-email" aria-hidden="true"><br></div><div class="wp-menu-name">Contact</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Contact</li><li class="wp-first-item"><a href="https://x-tree.com.vn/wp-admin/admin.php?page=wpcf7" class="wp-first-item">Contact Forms</a></li><li><a href="https://x-tree.com.vn/wp-admin/admin.php?page=wpcf7-new">Add New</a></li><li><a href="https://x-tree.com.vn/wp-admin/admin.php?page=wpcf7-integration">Integration</a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-icon-appearance menu-top-first" id="menu-appearance">
+	<a href="https://x-tree.com.vn/wp-admin/themes.php" class="wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-icon-appearance menu-top-first" aria-haspopup="false"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-appearance" aria-hidden="true"><br></div><div class="wp-menu-name">Appearance</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Appearance</li><li class="wp-first-item"><a href="https://x-tree.com.vn/wp-admin/themes.php" class="wp-first-item">Themes <span class="update-plugins count-0"><span class="theme-count">0</span></span></a></li><li><a href="https://x-tree.com.vn/wp-admin/edit.php?post_type=wp_block">Patterns</a></li><li class="hide-if-no-customize"><a href="https://x-tree.com.vn/wp-admin/customize.php?return=%2Fwp-admin%2Ftheme-editor.php%3Ffile%3Dfront-page.php%26theme%3Dtheme" class="hide-if-no-customize">Customize</a></li><li><a href="https://x-tree.com.vn/wp-admin/nav-menus.php">Menus</a></li><li class="current"><a href="https://x-tree.com.vn/wp-admin/theme-editor.php" class="current" aria-current="page">Theme File Editor</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" id="menu-plugins">
+	<a href="https://x-tree.com.vn/wp-admin/plugins.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-plugins" aria-hidden="true"><br></div><div class="wp-menu-name">Plugins <span class="update-plugins count-3"><span class="plugin-count">3</span></span></div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Plugins <span class="update-plugins count-3"><span class="plugin-count">3</span></span></li><li class="wp-first-item"><a href="https://x-tree.com.vn/wp-admin/plugins.php" class="wp-first-item">Installed Plugins</a></li><li><a href="https://x-tree.com.vn/wp-admin/plugin-install.php">Add New Plugin</a></li><li><a href="https://x-tree.com.vn/wp-admin/plugin-editor.php">Plugin File Editor</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" id="menu-users">
+	<a href="https://x-tree.com.vn/wp-admin/users.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-users" aria-hidden="true"><br></div><div class="wp-menu-name">Users</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Users</li><li class="wp-first-item"><a href="https://x-tree.com.vn/wp-admin/users.php" class="wp-first-item">All Users</a></li><li><a href="https://x-tree.com.vn/wp-admin/user-new.php">Add New User</a></li><li><a href="https://x-tree.com.vn/wp-admin/profile.php">Profile</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" id="menu-tools">
+	<a href="https://x-tree.com.vn/wp-admin/tools.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-tools" aria-hidden="true"><br></div><div class="wp-menu-name">Tools</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Tools</li><li class="wp-first-item"><a href="https://x-tree.com.vn/wp-admin/tools.php" class="wp-first-item">Available Tools</a></li><li><a href="https://x-tree.com.vn/wp-admin/import.php">Import</a></li><li><a href="https://x-tree.com.vn/wp-admin/export.php">Export</a></li><li><a href="https://x-tree.com.vn/wp-admin/site-health.php">Site Health <span class="menu-counter site-health-counter count-1"><span class="count">1</span></span></a></li><li><a href="https://x-tree.com.vn/wp-admin/export-personal-data.php">Export Personal Data</a></li><li><a href="https://x-tree.com.vn/wp-admin/erase-personal-data.php">Erase Personal Data</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings" id="menu-settings">
+	<a href="https://x-tree.com.vn/wp-admin/options-general.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-settings" aria-hidden="true"><br></div><div class="wp-menu-name">Settings</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Settings</li><li class="wp-first-item"><a href="https://x-tree.com.vn/wp-admin/options-general.php" class="wp-first-item">General</a></li><li><a href="https://x-tree.com.vn/wp-admin/options-writing.php">Writing</a></li><li><a href="https://x-tree.com.vn/wp-admin/options-reading.php">Reading</a></li><li><a href="https://x-tree.com.vn/wp-admin/options-media.php">Media</a></li><li><a href="https://x-tree.com.vn/wp-admin/options-permalink.php">Permalinks</a></li><li><a href="https://x-tree.com.vn/wp-admin/options-privacy.php">Privacy</a></li><li><a href="https://x-tree.com.vn/wp-admin/options-general.php?page=duplicate_page_settings">Duplicate Page</a></li><li><a href="https://x-tree.com.vn/wp-admin/options-general.php?page=rb_disable_comments_settings">Disable Comments RB</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_edit?post_type=acf-field-group" id="toplevel_page_edit-post_type-acf-field-group">
+	<a href="https://x-tree.com.vn/wp-admin/edit.php?post_type=acf-field-group" class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_edit?post_type=acf-field-group" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-welcome-widgets-menus" aria-hidden="true"><br></div><div class="wp-menu-name">Custom Fields</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Custom Fields</li><li class="wp-first-item"><a href="https://x-tree.com.vn/wp-admin/edit.php?post_type=acf-field-group" class="wp-first-item">Field Groups</a></li><li><a href="https://x-tree.com.vn/wp-admin/post-new.php?post_type=acf-field-group">Add New</a></li><li><a href="https://x-tree.com.vn/wp-admin/edit.php?post_type=acf-field-group&amp;page=acf-tools">Tools</a></li><li><a href="https://x-tree.com.vn/wp-admin/edit.php?post_type=acf-field-group&amp;page=acf-settings-updates">Updates</a></li></ul></li>
+	<li class="wp-not-current-submenu menu-top menu-icon-generic toplevel_page_acf-options-site-options" id="toplevel_page_acf-options-site-options">
+	<a href="https://x-tree.com.vn/wp-admin/admin.php?page=acf-options-site-options" class="wp-not-current-submenu menu-top menu-icon-generic toplevel_page_acf-options-site-options"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-generic" aria-hidden="true"><br></div><div class="wp-menu-name">Site Options</div></a></li>
+	<li class="wp-not-current-submenu menu-top toplevel_page_copy-delete-posts menu-top-last" id="toplevel_page_copy-delete-posts">
+	<a href="https://x-tree.com.vn/wp-admin/admin.php?page=copy-delete-posts" class="wp-not-current-submenu menu-top toplevel_page_copy-delete-posts menu-top-last"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before" aria-hidden="true"><img src="./Edit Themes ‹ X-Tree — WordPress_files/icon.png" alt=""></div><div class="wp-menu-name"><span id="cdp-menu">Copy &amp; Delete Posts</span></div></a></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_wp_file_manager menu-top-first" id="toplevel_page_wp_file_manager"><a href="https://x-tree.com.vn/wp-admin/admin.php?page=wp_file_manager" class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_wp_file_manager menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before" aria-hidden="true"><img src="./Edit Themes ‹ X-Tree — WordPress_files/wp_file_manager.svg" alt=""></div><div class="wp-menu-name">WP File Manager</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">WP File Manager</li><li class="wp-first-item"><a href="https://x-tree.com.vn/wp-admin/admin.php?page=wp_file_manager" class="wp-first-item">WP File Manager</a></li><li><a href="https://x-tree.com.vn/wp-admin/admin.php?page=wp_file_manager_settings">Settings</a></li><li><a href="https://x-tree.com.vn/wp-admin/admin.php?page=wp_file_manager_preferences">Preferences</a></li><li><a href="https://x-tree.com.vn/wp-admin/admin.php?page=wp_file_manager_sys_properties">System Properties</a></li><li><a href="https://x-tree.com.vn/wp-admin/admin.php?page=wp_file_manager_shortcode_doc">Shortcode – PRO</a></li><li><a href="https://x-tree.com.vn/wp-admin/admin.php?page=wpfm-logs">Logs</a></li><li><a href="https://x-tree.com.vn/wp-admin/admin.php?page=wpfm-backup">Backup/Restore</a></li></ul></li>
+	<li class="wp-not-current-submenu menu-top toplevel_page_weglot-settings" id="toplevel_page_weglot-settings">
+	<a href="https://x-tree.com.vn/wp-admin/admin.php?page=weglot-settings" class="wp-not-current-submenu menu-top toplevel_page_weglot-settings"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image svg" style="background-image: url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZyBmaWxsPSIjYTdhYWFkIj48cGF0aCBkPSJNMjEuNzM5IDkyLjU2NWw1MS44MjggMTI5LjczMiAyMy42Ni02MC4yNzkgMjQuMTQ0IDYwLjI3OUwxNzMuMiA5Mi41NjVoLTI4LjAwN2wtMjMuODIyIDU4Ljc1LTIzLjkwMi01OC43NS0yMy45MDIgNTguNzUtMjMuOTAyLTU4Ljc1SDIxLjczOXoiLz48cGF0aCBkPSJNMjEwLjAwNiA5Mi43MWMtMTcuODY2IDAtMzMuMTU3IDYuMzU4LTQ1Ljg3MyAxOS4wNzQtMTIuNzE1IDEyLjcxNi0xOC45OTMgMjguMDA2LTE4Ljk5MyA0NS43OTIgMCAxNy44NjcgNi4yNzggMzMuMTU4IDE4Ljk5MyA0NS44NzMgMTIuNzE2IDEyLjcxNiAyOC4wMDcgMTguOTkzIDQ1Ljg3MyAxOC45OTMgMTcuNzg2IDAgMzMuMDc3LTYuMjc3IDQ1Ljc5My0xOC45OTMgMTIuNzE1LTEyLjcxNSAxOS4wNzMtMjguMDA2IDE5LjA3My00NS44NzMgMC00LjUwNy0uNDgzLTguODUyLTEuMjg4LTEyLjk1N2gtNjMuNTc4djI1LjkxNGgzNi42OTljLTIuNzM3IDcuNTY1LTcuNDg1IDEzLjg0My0xNC4wODQgMTguNjcxLTYuNjggNC44My0xNC4yNDUgNy4yNDQtMjIuNjE1IDcuMjQ0LTEwLjc4NCAwLTE5Ljk1OC0zLjc4My0yNy41MjMtMTEuMzQ4LTcuNTY2LTcuNTY1LTExLjM0OC0xNi43NC0xMS4zNDgtMjcuNTI0IDAtMTAuNjIzIDMuNzgyLTE5Ljc5OCAxMS4zNDgtMjcuNDQzIDcuNTY1LTcuNjQ1IDE2Ljc0LTExLjUwOCAyNy41MjMtMTEuNTA4IDEwLjYyMyAwIDE5Ljc5OCAzLjg2MyAyNy41MjQgMTEuNDI4bDE4LjM1LTE4LjM1YTY3Ljk2MyA2Ny45NjMgMCAwMC0yMC43NjQtMTMuODQyYy03Ljg4Ny0zLjM4LTE2LjI1Ny01LjE1LTI1LjExLTUuMTV6Ii8+PC9nPjwvc3ZnPg==&quot;) !important;" aria-hidden="true"><br></div><div class="wp-menu-name">Weglot</div></a></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_cfdb7-list menu-top-last" id="toplevel_page_cfdb7-list"><a href="https://x-tree.com.vn/wp-admin/admin.php?page=cfdb7-list.php" class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_cfdb7-list menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-list-view" aria-hidden="true"><br></div><div class="wp-menu-name">Contact Forms</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Contact Forms</li><li class="wp-first-item"><a href="https://x-tree.com.vn/wp-admin/admin.php?page=cfdb7-list.php" class="wp-first-item">Contact Forms</a></li><li><a href="https://x-tree.com.vn/wp-admin/admin.php?page=cfdb7-extensions">Extensions</a></li></ul></li><li id="collapse-menu" class="hide-if-no-js"><button type="button" id="collapse-button" aria-label="Collapse Main menu" aria-expanded="true"><span class="collapse-button-icon" aria-hidden="true"></span><span class="collapse-button-label">Collapse menu</span></button></li></ul>
+</div>
+</div>
+<div id="wpcontent">
+
+		<div id="wpadminbar" class="nojq">
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
+				<ul role="menu" id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-menu-toggle"><a class="ab-item" role="menuitem" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=front-page.php&amp;theme=theme#" aria-expanded="false"><span class="ab-icon" aria-hidden="true"></span><span class="screen-reader-text">Menu</span></a></li><li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item" role="menuitem" aria-expanded="false" href="https://x-tree.com.vn/wp-admin/about.php"><span class="ab-icon" aria-hidden="true"></span><span class="screen-reader-text">About WordPress</span></a><div class="ab-sub-wrapper"><ul role="menu" aria-label="About WordPress" id="wp-admin-bar-wp-logo-default" class="ab-submenu"><li id="wp-admin-bar-about"><a class="ab-item" role="menuitem" href="https://x-tree.com.vn/wp-admin/about.php">About WordPress</a></li><li id="wp-admin-bar-contribute"><a class="ab-item" role="menuitem" href="https://x-tree.com.vn/wp-admin/contribute.php">Get Involved</a></li></ul><ul role="menu" aria-label="About WordPress" id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu"><li id="wp-admin-bar-wporg"><a class="ab-item" role="menuitem" href="https://wordpress.org/">WordPress.org</a></li><li id="wp-admin-bar-documentation"><a class="ab-item" role="menuitem" href="https://wordpress.org/documentation/">Documentation</a></li><li id="wp-admin-bar-learn"><a class="ab-item" role="menuitem" href="https://learn.wordpress.org/">Learn WordPress</a></li><li id="wp-admin-bar-support-forums"><a class="ab-item" role="menuitem" href="https://wordpress.org/support/forums/">Support</a></li><li id="wp-admin-bar-feedback"><a class="ab-item" role="menuitem" href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li></ul></div></li><li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" role="menuitem" aria-expanded="false" href="https://x-tree.com.vn/">X-Tree</a><div class="ab-sub-wrapper"><ul role="menu" aria-label="X-Tree" id="wp-admin-bar-site-name-default" class="ab-submenu"><li id="wp-admin-bar-view-site"><a class="ab-item" role="menuitem" href="https://x-tree.com.vn/">Visit Site</a></li></ul></div></li><li id="wp-admin-bar-updates"><a class="ab-item" role="menuitem" href="https://x-tree.com.vn/wp-admin/update-core.php"><span class="ab-icon" aria-hidden="true"></span><span class="ab-label" aria-hidden="true">4</span><span class="screen-reader-text updates-available-text">4 updates available</span></a></li><li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item" role="menuitem" aria-expanded="false" href="https://x-tree.com.vn/wp-admin/post-new.php"><span class="ab-icon" aria-hidden="true"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul role="menu" aria-label="New" id="wp-admin-bar-new-content-default" class="ab-submenu"><li id="wp-admin-bar-new-post"><a class="ab-item" role="menuitem" href="https://x-tree.com.vn/wp-admin/post-new.php">Post</a></li><li id="wp-admin-bar-new-media"><a class="ab-item" role="menuitem" href="https://x-tree.com.vn/wp-admin/media-new.php">Media</a></li><li id="wp-admin-bar-new-page"><a class="ab-item" role="menuitem" href="https://x-tree.com.vn/wp-admin/post-new.php?post_type=page">Page</a></li><li id="wp-admin-bar-new-user"><a class="ab-item" role="menuitem" href="https://x-tree.com.vn/wp-admin/user-new.php">User</a></li></ul></div></li><li id="wp-admin-bar-wp-admin-copy-and-delete-posts" class="cdp-admin-bar-noti menupop cdp-noti-hide"><a class="ab-item" role="menuitem" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=front-page.php&amp;theme=theme#" target="_self"><span class="cdp-admin-bar-icon-noti"></span>Copy &amp; Delete [<span class="cdp-notis-counter">0</span>]</a><div class="ab-sub-wrapper cdp-ab-sub"><a class="ab-item" role="menuitem" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=front-page.php&amp;theme=theme#" target="_self">
+      </a><ul class="ab-submenu cdp-dropdown-submenu"><a class="ab-item" role="menuitem" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=front-page.php&amp;theme=theme#" target="_self"></a><li class="cdp-undone-notis" style="display: none;"><a class="ab-item" role="menuitem" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=front-page.php&amp;theme=theme#" target="_self">
+          </a><a class="ab-item cdp-dropdown-menu">
+            <div style="display: block;">
+              <div class="cdp-dropdown-left-header">In progress:</div>
+            </div>
+          </a>
+        </li>
+      <li class="cdp-dd-undone-list"></li>
+        <hr class="cdp-dropdown-hr cdp-undone-hr" style="display: none;"><li class="cdp-done-notis" style="display: none;">
+          <a class="ab-item cdp-dropdown-menu">
+            <div style="display: block;">
+              <div class="cdp-dropdown-left-header">Done:</div>
+            </div>
+          </a>
+        </li>
+      <li class="cdp-dd-done-list"></li>
+        <hr class="cdp-dropdown-hr cdp-done-hr" style="display: none;"><li><a class="ab-item cdp-dropdown-clear-all-notis" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=front-page.php&amp;theme=theme#">Clear notifiactions</a></li>
+      </ul>
+    </div></li><li id="wp-admin-bar-weglot" class="menupop"><div class="ab-item ab-empty-item" role="menuitem" aria-expanded="false" style="background-image: url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZyBmaWxsPSIjYTdhYWFkIj48cGF0aCBkPSJNMjEuNzM5IDkyLjU2NWw1MS44MjggMTI5LjczMiAyMy42Ni02MC4yNzkgMjQuMTQ0IDYwLjI3OUwxNzMuMiA5Mi41NjVoLTI4LjAwN2wtMjMuODIyIDU4Ljc1LTIzLjkwMi01OC43NS0yMy45MDIgNTguNzUtMjMuOTAyLTU4Ljc1SDIxLjczOXoiLz48cGF0aCBkPSJNMjEwLjAwNiA5Mi43MWMtMTcuODY2IDAtMzMuMTU3IDYuMzU4LTQ1Ljg3MyAxOS4wNzQtMTIuNzE1IDEyLjcxNi0xOC45OTMgMjguMDA2LTE4Ljk5MyA0NS43OTIgMCAxNy44NjcgNi4yNzggMzMuMTU4IDE4Ljk5MyA0NS44NzMgMTIuNzE2IDEyLjcxNiAyOC4wMDcgMTguOTkzIDQ1Ljg3MyAxOC45OTMgMTcuNzg2IDAgMzMuMDc3LTYuMjc3IDQ1Ljc5My0xOC45OTMgMTIuNzE1LTEyLjcxNSAxOS4wNzMtMjguMDA2IDE5LjA3My00NS44NzMgMC00LjUwNy0uNDgzLTguODUyLTEuMjg4LTEyLjk1N2gtNjMuNTc4djI1LjkxNGgzNi42OTljLTIuNzM3IDcuNTY1LTcuNDg1IDEzLjg0My0xNC4wODQgMTguNjcxLTYuNjggNC44My0xNC4yNDUgNy4yNDQtMjIuNjE1IDcuMjQ0LTEwLjc4NCAwLTE5Ljk1OC0zLjc4My0yNy41MjMtMTEuMzQ4LTcuNTY2LTcuNTY1LTExLjM0OC0xNi43NC0xMS4zNDgtMjcuNTI0IDAtMTAuNjIzIDMuNzgyLTE5Ljc5OCAxMS4zNDgtMjcuNDQzIDcuNTY1LTcuNjQ1IDE2Ljc0LTExLjUwOCAyNy41MjMtMTEuNTA4IDEwLjYyMyAwIDE5Ljc5OCAzLjg2MyAyNy41MjQgMTEuNDI4bDE4LjM1LTE4LjM1YTY3Ljk2MyA2Ny45NjMgMCAwMC0yMC43NjQtMTMuODQyYy03Ljg4Ny0zLjM4LTE2LjI1Ny01LjE1LTI1LjExLTUuMTV6Ii8+PC9nPjwvc3ZnPg==&quot;) !important;">Weglot</div><div class="ab-sub-wrapper"><ul role="menu" id="wp-admin-bar-weglot-default" class="ab-submenu"><li id="wp-admin-bar-weglot-settings"><a class="ab-item" role="menuitem" href="https://x-tree.com.vn/wp-admin/admin.php?page=weglot-settings">Plugin settings</a></li><li id="wp-admin-bar-weglot-dashboard"><a class="ab-item" role="menuitem" href="https://dashboard.weglot.com/workspaces/w-96ce61fef1/projects/x-tree/translations/languages/" target="_blank">Weglot dashboard</a></li><li id="wp-admin-bar-weglot-visual-editor"><a class="ab-item" role="menuitem" href="https://dashboard.weglot.com/workspaces/w-96ce61fef1/projects/x-tree/translations/visual-editor/launch?url=https://x-tree.com.vn&amp;mode=translations" target="_blank">Edit with visual editor</a></li></ul></div></li></ul><ul role="menu" id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu"><li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" role="menuitem" aria-expanded="false" href="https://x-tree.com.vn/wp-admin/profile.php">Howdy, <span class="display-name">admin</span><img alt="" src="./Edit Themes ‹ X-Tree — WordPress_files/acf49208f76e204251f010b508518b51.png" srcset="https://secure.gravatar.com/avatar/acf49208f76e204251f010b508518b51?s=52&amp;d=mm&amp;r=g 2x" class="avatar avatar-26 photo" height="26" width="26" loading="lazy" decoding="async"></a><div class="ab-sub-wrapper"><ul role="menu" aria-label="Howdy, admin" id="wp-admin-bar-user-actions" class="ab-submenu"><li id="wp-admin-bar-user-info"><a class="ab-item" role="menuitem" href="https://x-tree.com.vn/wp-admin/profile.php"><img alt="" src="./Edit Themes ‹ X-Tree — WordPress_files/acf49208f76e204251f010b508518b51(1).png" srcset="https://secure.gravatar.com/avatar/acf49208f76e204251f010b508518b51?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64" loading="lazy" decoding="async"><span class="display-name">admin</span><span class="display-name edit-profile">Edit Profile</span></a></li><li id="wp-admin-bar-logout"><a class="ab-item" role="menuitem" href="https://x-tree.com.vn/wp-login.php?action=logout&amp;_wpnonce=13e25af6d8">Log Out</a></li></ul></div></li></ul>			</div>
+		</div>
+
+		
+<div id="wpbody" role="main">
+
+<div id="wpbody-content">
+		<div id="screen-meta" class="metabox-prefs">
+
+			<div id="contextual-help-wrap" class="hidden" tabindex="-1" aria-label="Contextual Help Tab">
+				<div id="contextual-help-back"></div>
+				<div id="contextual-help-columns">
+					<div class="contextual-help-tabs">
+						<ul>
+						
+							<li id="tab-link-overview" class="active">
+								<a href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=front-page.php&amp;theme=theme#tab-panel-overview" aria-controls="tab-panel-overview">
+									Overview								</a>
+							</li>
+													</ul>
+					</div>
+
+										<div class="contextual-help-sidebar">
+						<p><strong>For more information:</strong></p><p><a href="https://developer.wordpress.org/themes/">Documentation on Theme Development</a></p><p><a href="https://wordpress.org/documentation/article/appearance-theme-file-editor-screen/">Documentation on Editing Themes</a></p><p><a href="https://wordpress.org/documentation/article/editing-files/">Documentation on Editing Files</a></p><p><a href="https://developer.wordpress.org/themes/basics/template-tags/">Documentation on Template Tags</a></p><p><a href="https://wordpress.org/support/forums/">Support forums</a></p>					</div>
+					
+					<div class="contextual-help-tabs-wrap">
+						
+							<div id="tab-panel-overview" class="help-tab-content active">
+								<p>You can use the theme file editor to edit the individual CSS and PHP files which make up your theme.</p><p>Begin by choosing a theme to edit from the dropdown menu and clicking the Select button. A list then appears of the theme’s template files. Clicking once on any file name causes the file to appear in the large Editor box.</p><p>For PHP files, you can use the documentation dropdown to select from functions recognized in that file. Look Up takes you to a web page with reference material about that particular function.</p><p id="editor-keyboard-trap-help-1">When using a keyboard to navigate:</p><ul><li id="editor-keyboard-trap-help-2">In the editing area, the Tab key enters a tab character.</li><li id="editor-keyboard-trap-help-3">To move away from this area, press the Esc key followed by the Tab key.</li><li id="editor-keyboard-trap-help-4">Screen reader users: when in forms mode, you may need to press the Esc key twice.</li></ul><p>After typing in your edits, click Update File.</p><p><strong>Advice:</strong> Think very carefully about your site crashing if you are live-editing the theme currently in use.</p><p>Upgrading to a newer version of the same theme will override changes made here. To avoid this, consider creating a <a href="https://developer.wordpress.org/themes/advanced-topics/child-themes/">child theme</a> instead.</p>							</div>
+												</div>
+				</div>
+			</div>
+				</div>
+				<div id="screen-meta-links">
+					<div id="contextual-help-link-wrap" class="hide-if-no-js screen-meta-toggle">
+			<button type="button" id="contextual-help-link" class="button show-settings" aria-controls="contextual-help-wrap" aria-expanded="false">Help</button>
+			</div>
+				</div>
+		<div class="notice notice-warning update-nag inline"><a href="https://wordpress.org/documentation/wordpress-version/version-6-5-3/">WordPress 6.5.3</a> is available! <a href="https://x-tree.com.vn/wp-admin/update-core.php" aria-label="Please update WordPress now">Please update now</a>.</div>
+
+  <script>
+    if (typeof ajaxurl === 'undefined') ajaxurl = 'https://x-tree.com.vn/wp-admin/admin-ajax.php';
+  </script>
+  <div class="cdp-copy-alert-success" style="top: -28px; opacity: 0; display: none;">
+    <img src="./Edit Themes ‹ X-Tree — WordPress_files/copy.png" alt="Successfull copy image">
+  </div>
+    
+  <input type="text" hidden="" id="cdp-purl" style="display: none; visibility: hidden;" value="https://x-tree.com.vn/wp-content/plugins/copy-delete-posts">
+  
+  
+  
+    <div class="cdp-tooltip-content">
+
+    <div class="cdp-tooltip-before-options cdp-checkboxes">
+      <div class="cdp-tooltip-before">
+
+        <div class="cdp-button cdp-tooltip-btn-copy cdp-low-round cdp-copy-now-btn-tooltip cdp-center" data-cdp-btn="copy-quick">Copy now!</div>
+
+        <div class="cdp-modal-copy-times-tooltip">
+          <div class="cdp-modal-copy-times-content-tooltip">
+
+            <div class="cdp-cf" style="line-height: 32px; margin-top: 13px; margin-bottom: 12px;">
+
+              <div class="cdp-left">
+                <input class="cdp-input-border cdp-input-dynamic cdp-number-field-styled cdp-modal-input-times-tooltip" style="width: 42px !important; padding: 0 1px;" value="1" placeholder="1" min="1" max="10000" type="number" name="tooltip-times-first">
+              </div>
+
+              <div class="cdp-left">&nbsp;time(s)</div>
+
+              <div class="cdp-left">&nbsp;to&nbsp;</div>
+              <div class="cdp-left" style="max-height: 32px;">
+                <div class="cdp-inline cdp-tooltip-premium-spc-2  cdp-tooltip-premium-spc-3">
+                  <select disabled="disabled" class="cdp-input-dynamic cdp-tooltip-top cdp-premiu cdp-tooltip-select cdp-select cdp-sel-separat cdp-m-l-9-d cdptipstered" style="max-width: 98px !important" name="tooltip-which-site-first">
+                    <option value="-1">this site</option>
+                                      </select>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="cdp-cf" style="line-height: 32px; margin-top: 3px; margin-bottom: 5px;">
+              <div class="cdp-left">Settings:&nbsp;&nbsp;</div>
+
+              <div class="cdp-left" style="line-height: 10px;">
+                <select class="cdp-input-dynamic cdp-select cdp-tooltip-select cdp-sel-separat cdp-m-l-9-d cdp-sizes-profile-tooltip" name="tooltip-which-profile-first">
+                                    <option value="custom" disabled="">–– Select ––</option>
+                                    <option value="default">Default</option>
+                                  </select>
+              </div>
+
+              <div class="cdp-left cdp-relative">
+                <span class="cdp-info-icon cdp-tooltip-info-intt" style="top: calc(50% + 8px); margin-left: 9px;"></span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="cdp-center cdp-f-s-12 cdp-padding-5-h">
+          Or <span class="cdp-green cdp-pointer cdp-clickable cdp-tooltip-before-button">define it for this case</span>
+        </div>
+        <div class="cdp-center cdp-below-tooltip-before">
+          <!-- Define the possible settings <span class="cdp-green">on the plugin page</span>.<br /> -->
+          <span class="cdp-error-span-tooltip">Making more than 50 copies will take some time. – depending on your server.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="cdp-tooltip-full-options cdp-checkboxes" style="display: none; min-height: 360px; min-width: 602px; padding: 10px;">
+      <div class="cdp-cf">
+        <div class="cdp-left">
+          <h2 class="cdp-f-s-16 cdp-f-w-semi-bold" style="margin: 0; line-height: 40px;">Elements to copy:</h2>
+        </div>
+        <div class="cdp-right" style="width: calc(100% - 200px); text-align: right;">
+          <div class="cdp-cf cdp-inline" style="line-height: 40px">
+            <div class="cdp-left cdp-f-s-16">Use as basis settings</div>
+            <select class="cdp-left cdp-modal-select cdp-ow-border cdp-input-dynamic cdp-modal-input-profiles-r cdp-select cdp-m-l-9-d" name="tooltip-which-profile-second">
+              <option value="custom" selected="" disabled="">–– Select ––</option>
+              <option value="alloptions">Select all</option>
+              <option value="clear">Clean slate</option>
+              <optgroup label="–– Profiles ––"></optgroup>
+              <option value="custom_named" disabled="">Custom</option>
+                                <option value="default">Default</option>
+                            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="cdp-modal-checkboxes">
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="title">
+          <span>Title</span>
+        </label>
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="date">
+          <span>Date</span>
+        </label>
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="status">
+          <span>Status</span>
+        </label>
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="slug">
+          <span>Slug</span>
+        </label>
+      </div>
+      <div class="cdp-modal-checkboxes">
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="excerpt">
+          <span>Excerpt</span>
+        </label>
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="content">
+          <span>Content</span>
+        </label>
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="f_image">
+          <span>Feat. image</span>
+        </label>
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="template">
+          <span>Template</span>
+        </label>
+      </div>
+      <div class="cdp-modal-checkboxes">
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="format">
+          <span>Format</span>
+        </label>
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="author">
+          <span>Author</span>
+        </label>
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="password">
+          <span>Password</span>
+        </label>
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="children">
+          <span>Children</span>
+        </label>
+      </div>
+      <div class="cdp-modal-checkboxes">
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="comments">
+          <span>Comments</span>
+        </label>
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="menu_order">
+          <span>Menu order</span>
+        </label>
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="attachments">
+          <span>Attachments</span>
+        </label>
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="category">
+          <span>Categories</span>
+        </label>
+      </div>
+      <div class="cdp-modal-checkboxes">
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="post_tag">
+          <span>Tags</span>
+        </label>
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="taxonomy">
+          <span>Taxonomies</span>
+        </label>
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="nav_menu">
+          <span>Nav Menus</span>
+        </label>
+        <label>
+          <input class="cdp-input-dynamic" type="checkbox" name="link_category">
+          <span>Link cats</span>
+        </label>
+      </div>
+            <div class="cdp-modal-checkboxes cdp-modal-checkboxes-three">
+        <label class="cdp-relative"><span class="cdp-premium-icon" style="margin-left: 0"></span><b style="padding-left: 21px;" class="cdp-f-s-15 cdp-f-w-medium">Plugin options:</b></label>
+        <br>
+                                <label>
+          <div class="cdp-inline cdp-tooltip-premium-spc">
+            <input class="cdp-input-dynamic" type="checkbox" name="all_metadata">
+            <span>All post meta</span>
+          </div>
+        </label>
+      </div>
+      
+      <div class="cdp-relative">
+        <div class="cdp-modal-copy-times cdp-tooltip-c-t cdp-f-s-15">
+          <div class="cdp-modal-copy-times-content">
+                        <div class="cdp-cf cdp-inline">
+              <div class="cdp-left" style="line-height: 40px;">Copy&nbsp;</div>
+              <div class="cdp-left" style="line-height: 40px;">
+                <input class="cdp-modal-input-times cdp-input-border" name="tooltip-which-times-second" style="border-width: 1px !important;" placeholder="1" type="number" value="1">
+              </div>
+              <div class="cdp-left" style="line-height: 40px;">
+                &nbsp;time(s)              </div>
+              <div class="cdp-left" style="line-height: 40px;">&nbsp;to</div>
+              <div class="cdp-left">
+                <div class="cdp-tooltip-premium-spc-2 cdp-inline cdp-tooltip-premium-spc-3">
+                  <select disabled="disabled" class="cdp-input-dynamic cdp-modal-select cdp-modal-select-2 cdp-ow-border cdp-modal-input-site cdp-select cdp-m-l-9-d" name="tooltip-which-site-second">
+                    <option value="-1">this site</option>
+                                      </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cdp-center">
+        <span class="cdp-error-span-tooltip">Making more than 50 copies will take some time. – depending on your server.</span>
+      </div>
+
+      <div class="cdp-center cdp-padding" style="min-width: 420px; padding-bottom: 10px;">
+        <button class="cdp-button cdp-tooltip-btn-copy cdp-f-s-15 cdp-f-s-regular" data-cdp-btn="copy-custom" style="height:44px; width:211px;padding:0 20px;line-height: 44px;border-radius: 3px;">Copy it!</button>
+              </div>
+
+    </div>
+
+  </div>
+  
+<div class="wrap">
+<h1>Edit Themes</h1><div class="updated"><p>Awesome, you've been using <a href="https://x-tree.com.vn/wp-admin/admin.php?page=cfdb7-list.php">Contact Form CFDB7</a> for more than 1 week. May we ask you to give it a 5-star rating on WordPress? | <a href="https://wordpress.org/plugins/contact-form-cfdb7/" target="_blank">Ok, you deserved it</a> | <a href="https://x-tree.com.vn/wp-admin/?cfdb7-ignore-notice=0">I already did</a> | <a href="https://x-tree.com.vn/wp-admin/?cfdb7-ignore-notice=0">No, not good enough</a></p></div><div class="notice notice-success analyst-notice">
+	<p>
+		<strong class="analyst-plugin-name">Copy &amp; Delete Posts</strong>
+		Please confirm your email by clicking on the link we sent to info@theevolution7.com. This makes sure you’re not a bot.	</p>
+
+	<button type="button" class="analyst-notice-dismiss notice-dismiss" analyst-notice-id="6634644113015">
+		<span class="screen-reader-text">Dismiss this notice.</span>
+	</button>
+</div>
+
+
+<div class="fileedit-sub">
+<div class="alignleft">
+<h2>
+	theme: Homepage <span>(front-page.php)</span></h2>
+</div>
+<div class="alignright">
+	<form action="https://x-tree.com.vn/wp-admin/theme-editor.php" method="get">
+		<label for="theme" id="theme-plugin-editor-selector">Select theme to edit: </label>
+		<select name="theme" id="theme">
+		
+	<option value="theme" selected="selected">theme</option>
+	<option value="twentytwentyfour">Twenty Twenty-Four</option>		</select>
+		<input type="submit" name="Submit" id="Submit" class="button" value="Select">	</form>
+</div>
+<br class="clear">
+</div>
+
+
+<div id="templateside">
+	<h2 id="theme-files-label">Theme Files</h2>
+	<ul role="tree" aria-labelledby="theme-files-label">
+				<li role="treeitem" tabindex="-1" aria-expanded="true" aria-level="1" aria-posinset="1" aria-setsize="1">
+			<ul role="group">
+						<li role="none" class="">
+			<a role="treeitem" tabindex="0" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=style.css&amp;theme=theme" aria-level="2" aria-setsize="1" aria-posinset="14">
+				Stylesheet<br><span class="nonessential">(style.css)</span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=functions.php&amp;theme=theme" aria-level="2" aria-setsize="2" aria-posinset="14">
+				Theme Functions<br><span class="nonessential">(functions.php)</span>			</a>
+		</li>
+					<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="2" aria-setsize="14" aria-posinset="3">
+				<span class="folder-label">assets <span class="screen-reader-text">
+					folder				</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">			<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="3" aria-setsize="2" aria-posinset="1">
+				<span class="folder-label">css <span class="screen-reader-text">
+					folder				</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=assets%2Fcss%2Fall.min.css&amp;theme=theme" aria-level="4" aria-setsize="1" aria-posinset="7">
+				all.min.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=assets%2Fcss%2Fassets.css&amp;theme=theme" aria-level="4" aria-setsize="2" aria-posinset="7">
+				assets.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=assets%2Fcss%2Fcontent.css&amp;theme=theme" aria-level="4" aria-setsize="3" aria-posinset="7">
+				content.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=assets%2Fcss%2Fcustom.css&amp;theme=theme" aria-level="4" aria-setsize="4" aria-posinset="7">
+				custom.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=assets%2Fcss%2Fshortcodes.css&amp;theme=theme" aria-level="4" aria-setsize="5" aria-posinset="7">
+				shortcodes.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=assets%2Fcss%2Fshowcase.css&amp;theme=theme" aria-level="4" aria-setsize="6" aria-posinset="7">
+				showcase.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=assets%2Fcss%2Fstyle.css&amp;theme=theme" aria-level="4" aria-setsize="7" aria-posinset="7">
+				style.css			</a>
+		</li>
+		</ul>
+			</li>
+						<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="3" aria-setsize="2" aria-posinset="2">
+				<span class="folder-label">js <span class="screen-reader-text">
+					folder				</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=assets%2Fjs%2Fclapat.js&amp;theme=theme" aria-level="4" aria-setsize="1" aria-posinset="6">
+				clapat.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=assets%2Fjs%2Fcommon.js&amp;theme=theme" aria-level="4" aria-setsize="2" aria-posinset="6">
+				common.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=assets%2Fjs%2Fcontact.js&amp;theme=theme" aria-level="4" aria-setsize="3" aria-posinset="6">
+				contact.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=assets%2Fjs%2Fjquery.min.js&amp;theme=theme" aria-level="4" aria-setsize="4" aria-posinset="6">
+				jquery.min.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=assets%2Fjs%2Fplugins.js&amp;theme=theme" aria-level="4" aria-setsize="5" aria-posinset="6">
+				plugins.js			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=assets%2Fjs%2Fscripts.js&amp;theme=theme" aria-level="4" aria-setsize="6" aria-posinset="6">
+				scripts.js			</a>
+		</li>
+		</ul>
+			</li>
+			</ul>
+			</li>
+					<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=404.php&amp;theme=theme" aria-level="2" aria-setsize="4" aria-posinset="14">
+				404 Template<br><span class="nonessential">(404.php)</span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=archive.php&amp;theme=theme" aria-level="2" aria-setsize="5" aria-posinset="14">
+				Archives<br><span class="nonessential">(archive.php)</span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=footer.php&amp;theme=theme" aria-level="2" aria-setsize="6" aria-posinset="14">
+				Theme Footer<br><span class="nonessential">(footer.php)</span>			</a>
+		</li>
+				<li role="none" class="current-file">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=front-page.php&amp;theme=theme" aria-level="2" aria-setsize="7" aria-posinset="14">
+				<span class="notice notice-info">Homepage<br><span class="nonessential">(front-page.php)</span></span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=header.php&amp;theme=theme" aria-level="2" aria-setsize="8" aria-posinset="14">
+				Theme Header<br><span class="nonessential">(header.php)</span>			</a>
+		</li>
+					<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="2" aria-setsize="14" aria-posinset="9">
+				<span class="folder-label">inc <span class="screen-reader-text">
+					folder				</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=inc%2Ftemplate-functions.php&amp;theme=theme" aria-level="3" aria-setsize="1" aria-posinset="2">
+				template-functions.php			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=inc%2Ftemplate-tags.php&amp;theme=theme" aria-level="3" aria-setsize="2" aria-posinset="2">
+				template-tags.php			</a>
+		</li>
+		</ul>
+			</li>
+					<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=index.php&amp;theme=theme" aria-level="2" aria-setsize="10" aria-posinset="14">
+				Main Index Template<br><span class="nonessential">(index.php)</span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=page.php&amp;theme=theme" aria-level="2" aria-setsize="11" aria-posinset="14">
+				Single Page<br><span class="nonessential">(page.php)</span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=search.php&amp;theme=theme" aria-level="2" aria-setsize="12" aria-posinset="14">
+				Search Results<br><span class="nonessential">(search.php)</span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=single.php&amp;theme=theme" aria-level="2" aria-setsize="13" aria-posinset="14">
+				Single Post<br><span class="nonessential">(single.php)</span>			</a>
+		</li>
+					<li role="treeitem" aria-expanded="false" tabindex="-1" aria-level="2" aria-setsize="14" aria-posinset="14">
+				<span class="folder-label">templates <span class="screen-reader-text">
+					folder				</span><span aria-hidden="true" class="icon"></span></span>
+				<ul role="group" class="tree-folder">		<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=templates%2Fcontact.php&amp;theme=theme" aria-level="3" aria-setsize="1" aria-posinset="4">
+				Contact Page Template<br><span class="nonessential">(templates/contact.php)</span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=templates%2Fproduct.php&amp;theme=theme" aria-level="3" aria-setsize="2" aria-posinset="4">
+				Product Page Template<br><span class="nonessential">(templates/product.php)</span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=templates%2Fquality.php&amp;theme=theme" aria-level="3" aria-setsize="3" aria-posinset="4">
+				Quality Page Template<br><span class="nonessential">(templates/quality.php)</span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="https://x-tree.com.vn/wp-admin/theme-editor.php?file=templates%2Fservices.php&amp;theme=theme" aria-level="3" aria-setsize="4" aria-posinset="4">
+				Services Page Template<br><span class="nonessential">(templates/services.php)</span>			</a>
+		</li>
+		</ul>
+			</li>
+						</ul>
+		</li>
+	</ul>
+</div>
+
+	<form name="template" id="template" action="https://x-tree.com.vn/wp-admin/theme-editor.php" method="post">
+		<input type="hidden" id="nonce" name="nonce" value="5073f587cd"><input type="hidden" name="_wp_http_referer" value="/wp-admin/theme-editor.php?file=front-page.php&amp;theme=theme">		<div>
+			<label for="newcontent" id="theme-plugin-editor-label">Selected file content:</label>
+			<textarea cols="70" rows="30" name="newcontent" id="newcontent" aria-describedby="editor-keyboard-trap-help-1 editor-keyboard-trap-help-2 editor-keyboard-trap-help-3 editor-keyboard-trap-help-4" style="display: none;">&lt;?php
+
+/**
+ */
+get_header(); ?&gt;
+&lt;!-- Hero Section --&gt;
+&lt;div id="hero"&gt;
+    &lt;div id="hero-styles"&gt;
+        &lt;div id="hero-caption"
+            class="content-full-width no-padding-bottom text-align-center subtitle-padding-left"&gt;
+            &lt;div class="inner"&gt;
+                &lt;?php echo get_field('text'); ?&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--/Hero Section --&gt;
+&lt;!-- Main Content --&gt;
+&lt;div id="main-content"&gt;
+    &lt;!-- Main Page Content --&gt;
+    &lt;div id="main-page-content" class="content-full-width"&gt;
+        &lt;!-- Row --&gt;
+        &lt;div class="content-row dark-section fadeout-element" data-bgcolor="#c09a5f"&gt;
+
+            &lt;div class="clipped-image-wrapper"&gt;
+
+                &lt;div class="clipped-image-pin"&gt;
+                    &lt;div class="clipped-image"&gt;
+                        &lt;img src="&lt;?php echo get_field('image_sc1')['url'];?&gt;" alt="&lt;?php echo get_field('image_sc1')['alt'];?&gt;"&gt;
+                        &lt;div class="clipped-image-gradient"&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class="clipped-image-content text-align-center content-full-width"&gt;
+                    &lt;h2 class="has-mask-fill"&gt;&lt;?php echo get_field('title_sc1'); ?&gt;&lt;/h2&gt;
+                    &lt;hr&gt;
+                &lt;/div&gt;`
+
+            &lt;/div&gt;
+
+            &lt;div class="one_fourth"&gt;
+                &lt;p class="has-mask-fill no-margins"&gt;&lt;?php echo get_field('subtitle_sc1'); ?&gt;
+                &lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="three_fourth last"&gt;
+                &lt;?php echo get_field('description_sc1'); ?&gt;
+                &lt;div class="button-wrap right button-link large-btn has-animation"&gt;
+                    &lt;div class="icon-wrap parallax-wrap"&gt;
+                        &lt;div class="button-icon parallax-element"&gt;
+                            &lt;i class="fa-solid fa-arrow-right"&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;?php
+                    $link = get_field('button_link_sc1');
+                    if ($link) {
+                    $link_url = $link['url'];
+                    $link_title = $link['title'];
+                    $link_target = $link['target'] ? $link['target'] : '_self';
+                    ?&gt;
+                    &lt;a href="&lt;?php echo esc_url($link_url); ?&gt;" target="&lt;?php echo esc_attr($link_target); ?&gt;"&gt;
+                        &lt;div class="button-text btn-w sticky right"&gt;
+                            &lt;span data-hover="&lt;?php echo esc_html($link_title); ?&gt;"&gt;&lt;?php echo esc_html($link_title); ?&gt;&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/a&gt;
+                    &lt;?php } ?&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;!--/Row --&gt;
+
+
+        &lt;!-- Row --&gt;
+        &lt;?php if (have_rows('box_sc2')) { ?&gt;
+        &lt;div class="content-row full row_padding_top row_padding_bottom dark-section"
+            data-bgcolor="#c09a5f"&gt;
+
+            &lt;!-- Showcase Portfolio Holder --&gt;
+            &lt;div id="itemsWrapperLinks"&gt;
+                &lt;div id="itemsWrapper" class="webgl-fitthumbs fx-one"&gt;
+
+                    &lt;!-- X-Tree Portfolio --&gt;
+                    &lt;div class="showcase-portfolio layout-one"&gt;
+                    &lt;?php
+                       while (have_rows('box_sc2')) {
+                            the_row();
+                    ?&gt;
+                        &lt;div class="clapat-item photo-filter" data-startparallax="-0.2"
+                            data-endparallax="0.2"&gt;
+                            &lt;div class="slide-inner trigger-item" data-centerLine="OPEN"&gt;
+                                &lt;div class="img-mask"&gt;
+                                    &lt;a class="slide-link" data-type="page-transition"
+                                        href="&lt;?php echo get_sub_field('link')['url']; ?&gt;"&gt;&lt;/a&gt;
+                                    &lt;div class="section-image trigger-item-link"&gt;
+                                        &lt;img src="&lt;?php echo get_sub_field('image')['url']; ?&gt;" alt="&lt;?php echo get_sub_field('image')['alt']; ?&gt;"
+                                            class="item-image grid__item-img" alt=""&gt;
+                                    &lt;/div&gt;
+                                    &lt;img src="&lt;?php echo get_sub_field('image')['url']; ?&gt;" alt="&lt;?php echo get_sub_field('image')['alt']; ?&gt;"
+                                        class="grid__item-img grid__item-img--large"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="slide-caption trigger-item-link-secondary"&gt;
+                                    &lt;div class="slide-title"&gt;&lt;span&gt;&lt;?php  echo get_sub_field('title'); ?&gt;&lt;/span&gt;&lt;/div&gt;
+                                    &lt;div class="slide-cat"&gt;&lt;span&gt;&lt;?php  echo get_sub_field('subtitle'); ?&gt;&lt;/span&gt;&lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;?php } ?&gt;
+                       
+                    &lt;/div&gt;
+                    &lt;!-- X-Tree Portfolio --&gt;
+
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- Showcase Portfolio Holder --&gt;
+
+            &lt;hr&gt;
+            &lt;hr&gt;
+
+            &lt;h4 class="text-align-center no-margins fadeout-element"&gt;&lt;em
+                    class="has-mask-fill"&gt;&lt;?php echo get_field('title_sc2'); ?&gt;&lt;/em&gt;&lt;br&gt;&lt;span
+                    class="has-mask-fill"&gt;&lt;?php echo get_field('subtitle_sc2'); ?&gt;&lt;/span&gt;&lt;/h4&gt;
+            &lt;br&gt;
+            &lt;div class="button-box text-align-center has-animation fadeout-element"&gt;
+                &lt;div class="clapat-button-wrap parallax-wrap hide-ball"&gt;
+                    &lt;div class="clapat-button parallax-element"&gt;
+                    &lt;?php
+                    $link = get_field('button_link_sc2');
+                    if ($link) {
+                    $link_url = $link['url'];
+                    $link_title = $link['title'];
+                    $link_target = $link['target'] ? $link['target'] : '_self';
+                    ?&gt;
+                        &lt;div class="button-border outline rounded parallax-element-second"&gt;
+                            &lt;a class="ajax-link" href="&lt;?php echo esc_url($link_url); ?&gt;" target="&lt;?php echo esc_attr($link_target); ?&gt;" data-type="page-transition"&gt;
+                                &lt;span data-hover="&lt;?php echo esc_html($link_title); ?&gt;"&gt;&lt;?php echo esc_html($link_title); ?&gt;&lt;/span&gt;
+                            &lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;?php } ?&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;!--/Row --&gt;
+        &lt;?php } ?&gt;
+
+
+        &lt;!-- Row --&gt;
+        &lt;div class="content-row full has-clip-path row_padding_top row_padding_bottom row_padding_left row_padding_right light-section fadeout-element"
+            data-bgcolor="#e7decf"&gt;
+
+            &lt;div class="list-rotator-wrapper"&gt;
+                &lt;div class="list-rotator-title has-mask-fill"&gt;&lt;?php echo get_field('title_sc3'); ?&gt;&lt;/div&gt;
+                &lt;div class="list-rotator-height"&gt;
+                    &lt;div class="list-rotator-pin"&gt;
+                        &lt;?php if (have_rows('lists')) { ?&gt;
+                        &lt;ul class="list-rotator"&gt;
+                        &lt;?php
+                        while (have_rows('lists')) {
+                            the_row();
+                        ?&gt;    
+                            &lt;li&gt;&lt;?php  echo get_sub_field('text'); ?&gt;&lt;/li&gt;
+                        &lt;?php } ?&gt;
+                        &lt;/ul&gt;
+                        &lt;?php } ?&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class="one_fourth"&gt;
+                &lt;p class="has-mask-fill no-margins"&gt;&lt;?php echo get_field('title2_sc3'); ?&gt;&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="three_fourth last"&gt;
+                &lt;h5&gt;
+                    &lt;?php echo get_field('description_sc3'); ?&gt;
+                &lt;/h5&gt;
+                &lt;div class="button-box has-animation fadeout-element"&gt;
+                    &lt;div class="clapat-button-wrap parallax-wrap hide-ball"&gt;
+                        &lt;div class="clapat-button parallax-element"&gt;
+                        &lt;?php
+                            $link = get_field('button_link_sc3');
+                            if ($link) {
+                            $link_url = $link['url'];
+                            $link_title = $link['title'];
+                            $link_target = $link['target'] ? $link['target'] : '_self';
+                        ?&gt;
+                            &lt;div class="button-border outline rounded parallax-element-second"&gt;
+                                &lt;a class="ajax-link" href="&lt;?php echo esc_url($link_url); ?&gt;" target="&lt;?php echo esc_attr($link_target); ?&gt;" data-type="page-transition"&gt;
+                                    &lt;span data-hover="&lt;?php echo esc_html($link_title); ?&gt;"&gt;&lt;?php echo esc_html($link_title); ?&gt;&lt;/span&gt;
+                                &lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;?php } ?&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;!--/Row --&gt;
+        &lt;!-- &lt;div class="on-mobile row_padding_top content-row full row_padding_left row_padding_right dark-section text-align-center" data-bgcolor="#c8c0b2"&gt;
+              &lt;?php echo get_field('content_sc4'); ?&gt;
+        &lt;/div&gt; --&gt;
+        &lt;!-- Row --&gt;
+        &lt;div class="content-row full row_padding_left row_padding_right dark-section text-align-center" data-bgcolor="#c8c0b2"&gt;
+            &lt;div class="slowed-pin"&gt;
+                &lt;div class="slowed-text hide-on-mobile"&gt;
+                    &lt;?php echo get_field('content_sc4'); ?&gt;
+                &lt;/div&gt;
+                &lt;?php 
+                $images = get_field('gallery');
+                if( $images ): ?&gt;
+                &lt;div class="slowed-images"&gt;
+                &lt;?php foreach( $images as $image ): ?&gt;
+                    &lt;div class="slowed-image"&gt;
+                        &lt;img src="&lt;?php echo esc_url($image['url']); ?&gt;" class="link" alt="&lt;?php echo esc_attr($image['alt']); ?&gt;"&gt;
+                    &lt;/div&gt;
+                &lt;?php endforeach; ?&gt;
+                &lt;/div&gt;
+                &lt;?php endif ?&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!--/Row --&gt;
+        &lt;!-- Row --&gt;
+        &lt;div class="content-row full row_padding_top row_padding_left row_padding_right dark-section change-header-color"
+            data-bgcolor="#0c2223"&gt;
+
+            &lt;div class="marquee-text-wrapper"&gt;
+                &lt;h2 class="marquee-text fw big-title"&gt;&lt;?php echo get_field('title_sc5'); ?&gt;&lt;/h2&gt;
+            &lt;/div&gt;
+            &lt;div class="text-align-center"&gt;
+                &lt;p class="no-margins"&gt;&lt;span class="has-opacity"&gt; &lt;?php echo get_field('subtitle_sc5'); ?&gt;
+                &lt;/p&gt;
+
+            &lt;/div&gt;
+            &lt;?php if (have_rows('list_box')) { ?&gt;
+            &lt;div class="news-shortcode"&gt;
+            &lt;?php
+                $i=0;while (have_rows('list_box')) {
+                    the_row();$i++;
+            ?&gt;   
+                &lt;div class="news-post &lt;?php echo $i == 1 ? 'in-view' : null ?&gt;"&gt;
+                    &lt;div class="post-head"&gt;
+                        &lt;div class="post-entry-meta"&gt;
+                            &lt;p&gt;0&lt;?php echo $i; ?&gt;&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class="post-entry-meta"&gt;
+                            &lt;h4&gt;&lt;?php  echo get_sub_field('title'); ?&gt;&lt;/h4&gt;
+                        &lt;/div&gt;
+                        &lt;div class="post-article"&gt;
+                            &lt;div class="post-content"&gt;
+                                &lt;p&gt;&lt;?php  echo get_sub_field('description'); ?&gt;&lt;/p&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class="button-wrap right button-link"&gt;
+                                &lt;div class="icon-wrap parallax-wrap"&gt;
+                                    &lt;div class="button-icon parallax-element"&gt;
+                                        &lt;i class="fa-solid fa-arrow-right"&gt;&lt;/i&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;?php
+                                $link = get_sub_field('button_link');
+                                if ($link) {
+                                $link_url = $link['url'];
+                                $link_title = $link['title'];
+                                $link_target = $link['target'] ? $link['target'] : '_self';
+                                 ?&gt;
+                                &lt;a href="&lt;?php echo esc_url($link_url); ?&gt;" target="&lt;?php echo esc_attr($link_target); ?&gt;"&gt;
+                                    &lt;div class="button-text btn-w sticky right"&gt;
+                                        &lt;span data-hover="&lt;?php echo esc_html($link_title); ?&gt;"&gt;&lt;?php echo esc_html($link_title); ?&gt;&lt;/span&gt;
+                                    &lt;/div&gt;
+                                &lt;/a&gt;
+                                &lt;?php } ?&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                &lt;/div&gt;
+             &lt;?php } ?&gt;
+                
+
+            &lt;/div&gt;
+            &lt;?php } ?&gt;
+
+
+        &lt;/div&gt;
+        &lt;!--/Row --&gt;
+
+
+
+        &lt;!-- Row --&gt;
+        &lt;div class="content-row small row_padding_top row_padding_bottom light-section text-align-center"
+            data-bgcolor="#e7decf"&gt;
+
+            &lt;h3 class="has-mask-fill"&gt;&lt;?php  echo get_sub_field('title_sc6'); ?&gt;&lt;/h3&gt;
+            &lt;p class="no-margins"&gt;&lt;span class="has-opacity"&gt;&lt;?php  echo get_sub_field('subtitle_sc6'); ?&gt;&lt;/span&gt;&lt;/p&gt;
+
+        &lt;/div&gt;
+        &lt;!--/Row --&gt;
+
+
+        &lt;!-- Row --&gt;
+        &lt;?php
+            $featured_posts = get_field('products');
+            if( $featured_posts ):     
+            $i=1;
+        ?&gt;
+        &lt;div class="content-row row_padding_bottom light-section showcase-portfolio" data-bgcolor="#e7decf"&gt;
+            &lt;?php foreach( array_slice($featured_posts, 0, 3) as  $post ):  setup_postdata($post); ?&gt;
+                &lt;div class="one_third &lt;?php echo $i == 3 ? 'last' : null ?&gt; vertical-parallax" data-startparallax="0"
+                    data-endparallax="&lt;?php if($i == 1){ ?&gt;0.3&lt;?php }elseif($i == 2){ ?&gt;-0.1&lt;?php }else{ ?&gt;0.15&lt;?php } ?&gt;"&gt;
+                    &lt;div class="slide-inner" data-centerLine="OPEN"&gt;
+                        &lt;div class="img-mask"&gt;
+                            &lt;a class="slide-link" data-type="page-transition"
+                                href="&lt;?php the_permalink(); ?&gt;"&gt;
+                                &lt;div class="section-image  trigger-item-link"&gt;
+                                    &lt;img src="&lt;?php echo wp_get_attachment_url( get_post_thumbnail_id() );?&gt;" alt="&lt;?php the_title() ;?&gt;" class="item-image grid__item-img"&gt;
+                                &lt;/div&gt;
+                                &lt;img src="&lt;?php echo wp_get_attachment_url( get_post_thumbnail_id() );?&gt;" alt="&lt;?php the_title() ;?&gt;"
+                                    class="grid__item-img grid__item-img--large"&gt;
+                            &lt;/a&gt;
+                        &lt;/div&gt;
+                        &lt;div class="slide-caption trigger-item-link-secondary"&gt;
+                            &lt;div class="slide-title"&gt;&lt;span&gt;&lt;?php the_title() ;?&gt;&lt;/span&gt;&lt;/div&gt;
+                            &lt;div class="slide-cat"&gt;&lt;span&gt;&lt;?php echo get_the_category( $post-&gt;ID )[0]-&gt;name ?&gt;&lt;/span&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;?php $i++;endforeach ?&gt;
+        &lt;/div&gt;
+
+        &lt;div class="content-row row_padding_bottom light-section showcase-portfolio"
+            data-bgcolor="#e7decf"&gt;
+
+            &lt;?php foreach( array_slice($featured_posts, 3, 5) as  $post ):  setup_postdata($post); ?&gt;
+                &lt;div class="one_third &lt;?php echo $i == 6 ? 'last' : null ?&gt; vertical-parallax" data-startparallax="0"
+                    data-endparallax="&lt;?php if($i == 4){ ?&gt;0.3&lt;?php }elseif($i == 5){ ?&gt;-0.1&lt;?php }else{ ?&gt;0.15&lt;?php } ?&gt;"&gt;
+                    &lt;div class="slide-inner" data-centerLine="OPEN"&gt;
+                        &lt;div class="img-mask"&gt;
+                            &lt;a class="slide-link" data-type="page-transition"
+                                href="&lt;?php the_permalink(); ?&gt;"&gt;
+                                &lt;div class="section-image  trigger-item-link"&gt;
+                                    &lt;img src="&lt;?php echo wp_get_attachment_url( get_post_thumbnail_id() );?&gt;" alt="&lt;?php the_title() ;?&gt;" class="item-image grid__item-img"&gt;
+                                &lt;/div&gt;
+                                &lt;img src="&lt;?php echo wp_get_attachment_url( get_post_thumbnail_id() );?&gt;" alt="&lt;?php the_title() ;?&gt;"
+                                    class="grid__item-img grid__item-img--large"&gt;
+                            &lt;/a&gt;
+                        &lt;/div&gt;
+                        &lt;div class="slide-caption trigger-item-link-secondary"&gt;
+                            &lt;div class="slide-title"&gt;&lt;span&gt;&lt;?php the_title() ;?&gt;&lt;/span&gt;&lt;/div&gt;
+                            &lt;div class="slide-cat"&gt;&lt;span&gt;&lt;?php echo get_the_category( $post-&gt;ID )[0]-&gt;name ?&gt;&lt;/span&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;?php $i++;endforeach ?&gt;
+
+        &lt;/div&gt;
+        &lt;?php endif;wp_reset_postdata(); ?&gt;
+        &lt;!--/Row --&gt;
+        &lt;!-- Row --&gt;
+        &lt;div class="content-row small row_padding_top row_padding_bottom light-section text-align-center"
+            data-bgcolor="#e7decf"&gt;
+
+            &lt;div class="button-box has-animation" data-delay="100"&gt;
+                &lt;div class="clapat-button-wrap parallax-wrap hide-ball"&gt;
+                    &lt;div class="clapat-button parallax-element"&gt;
+                    &lt;?php
+                    $link = get_field('button_link_sc6');
+                    if ($link) {
+                    $link_url = $link['url'];
+                    $link_title = $link['title'];
+                    $link_target = $link['target'] ? $link['target'] : '_self';
+                    ?&gt;
+                        &lt;div class="button-border outline rounded parallax-element-second"&gt;
+                            &lt;a target="_blank" rel="nofollow" href="&lt;?php echo esc_url($link_url); ?&gt;" target="&lt;?php echo esc_attr($link_target); ?&gt;"&gt;
+                                &lt;span data-hover="&lt;?php echo esc_html($link_title); ?&gt;"&gt;&lt;?php echo esc_html($link_title); ?&gt;&lt;/span&gt;
+                            &lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;?php } ?&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!--/Row --&gt;
+    &lt;/div&gt;
+    &lt;!--/Main Page Content --&gt;
+    &lt;!-- Page Navigation --&gt;
+    &lt;div id="page-nav"&gt;
+        &lt;div class="page-nav-wrap"&gt;
+            &lt;div class="page-nav-caption content-full-width text-align-center"&gt;
+                &lt;div class="inner"&gt;
+                    &lt;a class="page-title next-ajax-link-page" data-type="page-transition"
+                        data-centerline="&lt;?php echo get_field('link','options')['title']; ?&gt;" href="&lt;?php echo get_field('link','options')['url']; ?&gt;"&gt;
+                        &lt;div class="next-hero-title primary-font-title caption-timeline"&gt;
+                            &lt;?php echo get_field('text','options'); ?&gt;
+                        &lt;/div&gt;
+                    &lt;/a&gt;
+                    &lt;div class="next-hero-subtitle caption-timeline"&gt;&lt;span&gt;&lt;?php echo get_field('subtext','options'); ?&gt;&lt;/span&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--/Page Navigation --&gt;
+&lt;/div&gt;
+&lt;!--/Main Content --&gt;
+&lt;?php
+get_footer();
+?&gt;
+</textarea><div class="CodeMirror cm-s-default CodeMirror-wrap CodeMirror-focused"><div class="CodeMirror-vscrollbar" cm-not-content="true" style="display: block; bottom: 0px;"><div style="min-width: 1px; height: 7482px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 33px; margin-bottom: -15px; border-right-width: 15px; min-height: 7482px; padding-right: 15px; padding-bottom: 0px;"><div style="position: relative; top: 3401.06px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style="visibility: hidden;"></div><div class="CodeMirror-code" role="textbox" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true" tabindex="0" style="" aria-multiline="true" aria-labelledby="theme-plugin-editor-label" aria-describedby="editor-keyboard-trap-help-1 editor-keyboard-trap-help-2 editor-keyboard-trap-help-3 editor-keyboard-trap-help-4"><div style="position: relative; display: none;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">121</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">h4</span> <span class="cm-attribute">class</span>=<span class="cm-string">"text-align-center no-margins fadeout-element"</span><span class="cm-tag cm-bracket">&gt;&lt;</span><span class="cm-tag">em</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">188</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable-2">$link_target</span> <span class="cm-operator">=</span> <span class="cm-variable-2">$link</span>[<span class="cm-string">'target'</span>] <span class="cm-operator">?</span> <span class="cm-variable-2">$link</span>[<span class="cm-string">'target'</span>] : <span class="cm-string">'_self'</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">189</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-meta">?&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">190</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"button-border outline rounded parallax-element-second"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">191</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">a</span> <span class="cm-attribute">class</span>=<span class="cm-string">"ajax-link"</span> <span class="cm-attribute">href</span>=<span class="cm-string">"</span><span class="cm-meta">&lt;?php</span> <span class="cm-keyword">echo</span> <span class="cm-variable">esc_url</span>(<span class="cm-variable-2">$link_url</span>); <span class="cm-meta">?&gt;</span><span class="cm-string">"</span> <span class="cm-attribute">target</span>=<span class="cm-string">"</span><span class="cm-meta">&lt;?php</span> <span class="cm-keyword">echo</span> <span class="cm-variable">esc_attr</span>(<span class="cm-variable-2">$link_target</span>); <span class="cm-meta">?&gt;</span><span class="cm-string">"</span> <span class="cm-attribute">data-type</span>=<span class="cm-string">"page-transition"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">192</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">span</span> <span class="cm-attribute">data-hover</span>=<span class="cm-string">"</span><span class="cm-meta">&lt;?php</span> <span class="cm-keyword">echo</span> <span class="cm-variable">esc_html</span>(<span class="cm-variable-2">$link_title</span>); <span class="cm-meta">?&gt;</span><span class="cm-string">"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-meta">&lt;?php</span> <span class="cm-keyword">echo</span> <span class="cm-variable">esc_html</span>(<span class="cm-variable-2">$link_title</span>); <span class="cm-meta">?&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">span</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">193</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">a</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">194</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">195</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-meta">&lt;?php</span> } <span class="cm-meta">?&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">196</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">197</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">198</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">199</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">200</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">201</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">202</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-comment">&lt;!--/Row --&gt;</span></span></pre></div><div style="position: relative;" class=""><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">203</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"on-mobile row_padding_top content-row full row_padding_left row_padding_right dark-section text-align-center"</span> <span class="cm-attribute">data-bgcolor</span>=<span class="cm-string">"#c8c0b2"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">204</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-meta">&lt;?php</span> <span class="cm-keyword">echo</span> <span class="cm-variable">get_field</span>(<span class="cm-string">'content_sc4'</span>); <span class="cm-meta">?&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">205</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">206</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-comment">&lt;!-- Row --&gt;</span></span></pre></div><div style="position: relative;" class="CodeMirror-activeline"><div class="CodeMirror-activeline-background CodeMirror-linebackground" contenteditable="false"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" contenteditable="false" style="left: -33px; width: 33px;"></div><div class="CodeMirror-gutter-wrapper CodeMirror-activeline-gutter" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">207</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket CodeMirror-matchingtag">&lt;</span><span class="cm-tag CodeMirror-matchingtag">div</span><span class=" CodeMirror-matchingtag"> </span><span class="cm-attribute CodeMirror-matchingtag">class</span><span class=" CodeMirror-matchingtag">=</span><span class="cm-string CodeMirror-matchingtag">"content-row full row_padding_left row_padding_right dark-section text-align-center"</span><span class=" CodeMirror-matchingtag"> </span><span class="cm-attribute CodeMirror-matchingtag">data-bgcolor</span><span class=" CodeMirror-matchingtag">=</span><span class="cm-string CodeMirror-matchingtag">"#c8c0b2"</span><span class="cm-tag cm-bracket CodeMirror-matchingtag">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">208</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"slowed-pin"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">209</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"slowed-text hide-on-mobile"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">210</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-meta">&lt;?php</span> <span class="cm-keyword">echo</span> <span class="cm-variable">get_field</span>(<span class="cm-string">'content_sc4'</span>); <span class="cm-meta">?&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">211</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">212</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-meta">&lt;?php</span> </span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">213</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable-2">$images</span> <span class="cm-operator">=</span> <span class="cm-variable">get_field</span>(<span class="cm-string">'gallery'</span>);</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">214</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">if</span>( <span class="cm-variable-2">$images</span> ): <span class="cm-meta">?&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">215</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"slowed-images"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">216</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-meta">&lt;?php</span> <span class="cm-keyword">foreach</span>( <span class="cm-variable-2">$images</span> <span class="cm-keyword">as</span> <span class="cm-variable-2">$image</span> ): <span class="cm-meta">?&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">217</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"slowed-image"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">218</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">img</span> <span class="cm-attribute">src</span>=<span class="cm-string">"</span><span class="cm-meta">&lt;?php</span> <span class="cm-keyword">echo</span> <span class="cm-variable">esc_url</span>(<span class="cm-variable-2">$image</span>[<span class="cm-string">'url'</span>]); <span class="cm-meta">?&gt;</span><span class="cm-string">"</span> <span class="cm-attribute">class</span>=<span class="cm-string">"link"</span> <span class="cm-attribute">alt</span>=<span class="cm-string">"</span><span class="cm-meta">&lt;?php</span> <span class="cm-keyword">echo</span> <span class="cm-variable">esc_attr</span>(<span class="cm-variable-2">$image</span>[<span class="cm-string">'alt'</span>]); <span class="cm-meta">?&gt;</span><span class="cm-string">"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">219</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">220</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-meta">&lt;?php</span> <span class="cm-keyword">endforeach</span>; <span class="cm-meta">?&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">221</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">222</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-meta">&lt;?php</span> <span class="cm-keyword">endif</span> <span class="cm-meta">?&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">223</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">224</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket CodeMirror-matchingtag">&lt;/</span><span class="cm-tag CodeMirror-matchingtag">div</span><span class="cm-tag cm-bracket CodeMirror-matchingtag">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">225</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-comment">&lt;!--/Row --&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">226</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-comment">&lt;!-- Row --&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">227</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"content-row full row_padding_top row_padding_left row_padding_right dark-section change-header-color"</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">228</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-attribute">data-bgcolor</span>=<span class="cm-string">"#0c2223"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">229</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">230</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"marquee-text-wrapper"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">231</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">h2</span> <span class="cm-attribute">class</span>=<span class="cm-string">"marquee-text fw big-title"</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-meta">&lt;?php</span> <span class="cm-keyword">echo</span> <span class="cm-variable">get_field</span>(<span class="cm-string">'title_sc5'</span>); <span class="cm-meta">?&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">h2</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">232</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">233</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"text-align-center"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">234</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">p</span> <span class="cm-attribute">class</span>=<span class="cm-string">"no-margins"</span><span class="cm-tag cm-bracket">&gt;&lt;</span><span class="cm-tag">span</span> <span class="cm-attribute">class</span>=<span class="cm-string">"has-opacity"</span><span class="cm-tag cm-bracket">&gt;</span> <span class="cm-meta">&lt;?php</span> <span class="cm-keyword">echo</span> <span class="cm-variable">get_field</span>(<span class="cm-string">'subtitle_sc5'</span>); <span class="cm-meta">?&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">235</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag cm-error">p</span><span class="cm-tag cm-bracket cm-error">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">236</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">237</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">238</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-meta">&lt;?php</span> <span class="cm-keyword">if</span> (<span class="cm-variable">have_rows</span>(<span class="cm-string">'list_box'</span>)) { <span class="cm-meta">?&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">239</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"news-shortcode"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">240</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-meta">&lt;?php</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">241</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable-2">$i</span><span class="cm-operator">=</span><span class="cm-number">0</span>;<span class="cm-keyword">while</span> (<span class="cm-variable">have_rows</span>(<span class="cm-string">'list_box'</span>)) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">242</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-variable">the_row</span>();<span class="cm-variable-2">$i</span><span class="cm-operator">++</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">243</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-meta">?&gt;</span> &nbsp; </span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">244</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"news-post </span><span class="cm-meta">&lt;?php</span> <span class="cm-keyword">echo</span> <span class="cm-variable-2">$i</span> <span class="cm-operator">==</span> <span class="cm-number">1</span> <span class="cm-operator">?</span> <span class="cm-string">'in-view'</span> : <span class="cm-atom">null</span> <span class="cm-meta">?&gt;</span><span class="cm-string">"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">245</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"post-head"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">246</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"post-entry-meta"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">247</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span>0<span class="cm-meta">&lt;?php</span> <span class="cm-keyword">echo</span> <span class="cm-variable-2">$i</span>; <span class="cm-meta">?&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">248</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">249</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span> <span class="cm-attribute">class</span>=<span class="cm-string">"post-entry-meta"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">250</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">h4</span><span class="cm-tag cm-bracket">&gt;</span><span class="cm-meta">&lt;?php</span> &nbsp;<span class="cm-keyword">echo</span> <span class="cm-variable">get_sub_field</span>(<span class="cm-string">'title'</span>); <span class="cm-meta">?&gt;</span><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">h4</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 7482px;"></div><div class="CodeMirror-gutters" style="height: 7497px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 32px;"></div></div></div></div>
+			<input type="hidden" name="action" value="update">
+			<input type="hidden" name="file" value="front-page.php">
+			<input type="hidden" name="theme" value="theme">
+		</div>
+
+					<div id="documentation" class="hide-if-no-js">
+				<label for="docs-list">Documentation:</label>
+				<select name="docs-list" id="docs-list"><option value="">Function Name…</option><option value="array_slice">array_slice()</option><option value="esc_attr">esc_attr()</option><option value="esc_html">esc_html()</option><option value="esc_url">esc_url()</option><option value="get_field">get_field()</option><option value="get_footer">get_footer()</option><option value="get_header">get_header()</option><option value="get_post_thumbnail_id">get_post_thumbnail_id()</option><option value="get_sub_field">get_sub_field()</option><option value="get_the_category">get_the_category()</option><option value="have_rows">have_rows()</option><option value="setup_postdata">setup_postdata()</option><option value="the_permalink">the_permalink()</option><option value="the_row">the_row()</option><option value="the_title">the_title()</option><option value="wp_get_attachment_url">wp_get_attachment_url()</option><option value="wp_reset_postdata">wp_reset_postdata()</option></select>				<input disabled="" id="docs-lookup" type="button" class="button" value="Look Up" onclick="if ( &#39;&#39; !== jQuery(&#39;#docs-list&#39;).val() ) { window.open( &#39;https://api.wordpress.org/core/handbook/1.0/?function=&#39; + escape( jQuery( &#39;#docs-list&#39; ).val() ) + &#39;&amp;locale=en_US&amp;version=6.5.2&amp;redirect=true&#39;); }">
+			</div>
+		
+		<div>
+			<div class="editor-notices">
+							</div>
+							<p class="submit">
+					<input type="submit" name="submit" id="submit" class="button button-primary" value="Update File">					<span class="spinner"></span>
+				</p>
+						</div>
+
+			<script type="text/html" id="tmpl-wp-file-editor-notice">
+		<div class="notice inline notice-{{ data.type || 'info' }} {{ data.alt ? 'notice-alt' : '' }} {{ data.dismissible ? 'is-dismissible' : '' }} {{ data.classes || '' }}">
+			<# if ( 'php_error' === data.code ) { #>
+				<p>
+					Your PHP code changes were not applied due to an error on line {{ data.line }} of file {{ data.file }}. Please fix and try saving again.				</p>
+				<pre>{{ data.message }}</pre>
+			<# } else if ( 'file_not_writable' === data.code ) { #>
+				<p>
+					You need to make this file writable before you can save your changes. See <a href="https://wordpress.org/documentation/article/changing-file-permissions/">Changing File Permissions</a> for more information.				</p>
+			<# } else { #>
+				<p>{{ data.message || data.code }}</p>
+
+				<# if ( 'lint_errors' === data.code ) { #>
+					<p>
+						<# var elementId = 'el-' + String( Math.random() ); #>
+						<input id="{{ elementId }}"  type="checkbox">
+						<label for="{{ elementId }}">Update anyway, even though it might break your site?</label>
+					</p>
+				<# } #>
+			<# } #>
+			<# if ( data.dismissible ) { #>
+				<button type="button" class="notice-dismiss"><span class="screen-reader-text">
+					Dismiss				</span></button>
+			<# } #>
+		</div>
+	</script>
+		</form>
+	<br class="clear">
+</div>
+
+<div class="clear"></div></div><!-- wpbody-content -->
+<div class="clear"></div></div><!-- wpbody -->
+<div class="clear"></div></div><!-- wpcontent -->
+
+<div id="wpfooter" role="contentinfo">
+		<p id="footer-left" class="alignleft">
+		<span id="footer-thankyou">Thank you for creating with <a href="https://wordpress.org/">WordPress</a>.</span>	</p>
+	<p id="footer-upgrade" class="alignright">
+		<strong><a href="https://x-tree.com.vn/wp-admin/update-core.php">Get Version 6.5.3</a></strong>	</p>
+	<div class="clear"></div>
+</div>
+
+</div>
+
+<script type="text/javascript">
+
+	(function ($) {
+	  var isOptingOut = false
+
+	  $('#analyst-opt-out-modal').appendTo($('body'))
+
+      $(document).on('click', '.analyst-opt-out', function() {
+        var pluginId = $(this).attr('analyst-plugin-id')
+
+        $('#analyst-opt-out-modal')
+		  .attr({'analyst-plugin-id': pluginId})
+		  .show()
+      })
+
+	  $('.opt-out-modal-close').click(function () {
+        $('#analyst-opt-out-modal').hide()
+      })
+
+	  $('#opt-out-action').click(function () {
+		if (isOptingOut) return
+
+        var $mask = $('#analyst-disable-opt-out-modal-mask')
+        var $error = $('#analyst-opt-out-error')
+
+		var pluginId = $('#analyst-opt-out-modal').attr('analyst-plugin-id')
+
+    $mask.show()
+		$error.hide()
+
+		var self = this
+
+	    isOptingOut = true
+
+        $(self).text('Opting out...')
+
+        $.ajax({
+          url: ajaxurl,
+          method: 'POST',
+          data: {
+            action: 'analyst_opt_out_' + pluginId,
+            nonce: analyst_opt_localize.nonce
+          },
+          success: function (data) {
+            $(self).text('Opt out')
+
+			if (data && !data.success) {
+			    $('#analyst-opt-out-modal').hide()
+
+			    return
+			}
+
+            $error.hide()
+
+            $('#analyst-opt-out-modal').hide()
+
+			isOptingOut = false
+
+            var optInAction = $('<a />').attr({
+			          class: 'analyst-action-opt analyst-opt-in',
+			          'analyst-plugin-id': pluginId,
+                'analyst-plugin-signed': '1'
+            })
+			  .text('Opt In')
+            $('.analyst-opt-out[analyst-plugin-id="'+ pluginId +'"').replaceWith(optInAction)
+
+            $('[analyst-plugin-id="' + pluginId + '"').attr('analyst-plugin-opted-in', 0)
+
+            $mask.hide()
+          },
+		  error: function () {
+            $('#analyst-opt-out-error').show()
+
+            $(self).text('Opt out')
+          }
+        }).done(function () {
+		  $mask.hide()
+
+          isOptingOut = false
+        })
+      })
+    })(jQuery)
+</script><div id="analyst-opt-out-modal" class="analyst-modal" style="display: none">
+	<div class="analyst-modal-content" style="width: 600px">
+		<div class="analyst-disable-modal-mask" id="analyst-disable-opt-out-modal-mask" style="display: none"></div>
+		<div style="display: flex">
+			<div class="analyst-install-image-block" style="width: 120px">
+				<img src="./Edit Themes ‹ X-Tree — WordPress_files/shield_question.png">
+			</div>
+			<div class="analyst-install-description-block">
+				<strong class="analyst-modal-header">By opting out, we cannot alert you anymore  in case of important security updates.</strong>
+				<p class="analyst-install-description-text">
+					In addition, we won’t get pointers how to further improve the plugin based on your integration with our plugin.
+				</p>
+			</div>
+		</div>
+		<div class="analyst-modal-def-top-padding">
+			<button class="analyst-btn-success opt-out-modal-close">Ok, don't opt out</button>
+		</div>
+		<div class="analyst-modal-def-top-padding" style="text-align: center;">
+			<button class="analyst-btn-secondary-ghost" id="opt-out-action">Opt out</button>
+		</div>
+		<div id="analyst-opt-out-error" class="analyst-modal-def-top-padding" style="display: none;">
+			<span style="color: #dc3232; font-size: 16px">Service unavailable. Please try again later</span>
+		</div>
+	</div>
+	</div>
+<script type="text/javascript">
+
+  (function ($) {
+    var isOptingIn = false
+
+    $('#analyst-opt-in-modal').appendTo($('body'))
+
+	var makeOptIn = function (pluginId) {
+      if (isOptingIn) return
+
+      isOptingIn = true
+
+      $.ajax({
+        url: ajaxurl,
+        method: 'POST',
+        data: {
+          action: 'analyst_opt_in_' + pluginId,
+          nonce: analyst_opt_localize.nonce
+        },
+        success: function () {
+          $('#analyst-opt-in-modal').hide()
+
+          isOptingIn = false
+
+          var optOutAction = $('<a />').attr({
+              class: 'analyst-action-opt analyst-opt-out',
+              'analyst-plugin-id': pluginId,
+              'analyst-plugin-signed': '1'
+            })
+            .text('Opt Out')
+          $('.analyst-opt-in[analyst-plugin-id="'+ pluginId +'"').replaceWith(optOutAction)
+
+          $('[analyst-plugin-id="' + pluginId + '"').attr('analyst-plugin-opted-in', 1)
+        }
+      })
+	}
+
+    $(document).on('click', '.analyst-opt-in:not([loading])', function() {
+	  var pluginId = $(this).attr('analyst-plugin-id')
+	  var isSigned = $(this).attr('analyst-plugin-signed') === '1'
+
+	  if (!isSigned) {
+		$('#analyst-install-modal')
+		  .attr('analyst-plugin-id', pluginId)
+		  .show()
+
+	    return;
+	  }
+
+      $('#analyst-install-modal').attr({'analyst-plugin-id': pluginId})
+
+	  $(this).attr('loading', true).text('Opting In...')
+
+	  makeOptIn(pluginId);
+    })
+
+    $('.opt-in-modal-close').click(function () {
+      $('#analyst-opt-in-modal').hide()
+    })
+  })(jQuery)
+</script>
+<div id="analyst-deactivate-modal" class="analyst-modal" style="display: none">
+	<div class="analyst-modal-content" style="width: 500px">
+		<div class="analyst-disable-modal-mask" id="analyst-disable-deactivate-modal-mask" style="display: none"></div>
+		<div style="display: flex">
+			<div class="analyst-install-image-block" style="width: 80px">
+				<img src="./Edit Themes ‹ X-Tree — WordPress_files/pencil.png">
+			</div>
+			<div class="analyst-install-description-block" style="padding-left: 20px">
+				<strong class="analyst-modal-header">Why do you deactivate?</strong>
+				<div class="analyst-install-description-text" style="padding-top: 2px">
+					Please let us know, so we can improve it! Thank you <img class="analyst-smile-image" src="./Edit Themes ‹ X-Tree — WordPress_files/smile.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div>
+			<ul id="analyst-deactivation-reasons">
+				<li>
+					<label>
+						<span>
+							<input type="radio" name="deactivation-reason">
+						</span>
+						<span class="question" data-question="I couldn&#39;t understand how to make it work">I couldn't understand how to make it work</span>
+					</label>
+				</li>
+				<li data-input-type="textarea" data-input-placeholder="What should have worked, but didn’t?">
+					<label>
+						<span>
+							<input type="radio" name="deactivation-reason">
+						</span>
+						<span class="question" data-question="The plugin didn&#39;t work as expected">The plugin didn't work as expected</span>
+					</label>
+					<div class="question-answer"></div>
+				</li>
+				<li data-input-type="input" data-input-placeholder="What is the plugin name?">
+					<label>
+						<span>
+							<input type="radio" name="deactivation-reason">
+						</span>
+						<span class="question" data-question="I found a better plugin">I found a better plugin</span>
+					</label>
+					<div class="question-answer"></div>
+				</li>
+				<li>
+					<label>
+						<span>
+							<input type="radio" name="deactivation-reason">
+						</span>
+						<span class="question" data-question="It&#39;s a temporary deactivation">It's a temporary deactivation</span>
+					</label>
+					<div class="question-answer"></div>
+				</li>
+				<li data-input-type="textarea" data-input-placeholder="Please provide the reason of deactivation">
+					<label>
+						<span>
+							<input type="radio" name="deactivation-reason">
+						</span>
+						<span class="question" data-question="Other">Other</span>
+					</label>
+					<div class="question-answer"></div>
+				</li>
+			</ul>
+			<p id="analyst-deactivation-error" style="color: #dc3232; font-size: 16px; display: none">Please let us know the reason for de-activation. Thank you!</p>
+		</div>
+		<div>
+			<button class="analyst-btn-grey" id="analyst-disabled-plugin-action">Deactivate</button>
+		</div>
+		<div class="" style="text-align: center; font-size: 18px; padding-top: 10px">
+			<button class="analyst-btn-secondary-ghost analyst-deactivate-modal-close" style="color: #cccccc">Cancel</button>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+  (function ($) {
+	$('.deactivate').click(function (e) {
+      var anchor = $(this).find('[analyst-plugin-id]')
+	  var pluginId = anchor.attr('analyst-plugin-id')
+	  var isOptedIn = anchor.attr('analyst-plugin-opted-in') === '1'
+
+	  // Do not ask for reason if not opted in
+	  if (!isOptedIn) {
+	    return
+	  }
+
+	  e.preventDefault()
+
+	  $('#analyst-deactivate-modal')
+		.attr({
+		  'analyst-plugin-id': pluginId,
+		  'analyst-redirect-url': $(this).find('a').attr('href')
+		})
+		.show()
+    })
+
+	$('.analyst-deactivate-modal-close').click(function () {
+	  $('#analyst-deactivate-modal').hide()
+    })
+
+    $('#analyst-deactivation-reasons input[name="deactivation-reason"]').change(function () {
+	  $('.question-answer').empty()
+
+      var root = $('#analyst-deactivation-reasons input[name="deactivation-reason"]:checked').parents('li')
+
+      $('#analyst-deactivation-error').hide()
+
+	  if (!root.attr('data-input-type')) return
+
+	  var reasonInput = $('<' + root.attr('data-input-type') + '/>').attr({placeholder: root.attr('data-input-placeholder'), class: 'reason-answer'})
+
+	  root.find('.question-answer').append(reasonInput)
+    })
+
+	$('#analyst-disabled-plugin-action').click(function () {
+	  var pluginId = $('#analyst-deactivate-modal').attr('analyst-plugin-id')
+	  var pluginDeactivationUrl = $('#analyst-deactivate-modal').attr('analyst-redirect-url')
+
+	  var root = $('#analyst-deactivation-reasons input[name="deactivation-reason"]:checked').parents('li');
+
+      var reason = root.find('.question-answer .reason-answer').val();
+
+      var question = root.find('.question').attr('data-question').trim()
+
+	  var $errorBlock = $('#analyst-deactivation-error')
+
+      if (!question) {
+		return $errorBlock.show()
+	  }
+
+      $errorBlock.hide()
+
+      var data = {
+        action: 'analyst_plugin_deactivate_' + pluginId,
+		    question: question,
+        nonce: analyst_opt_localize.nonce
+      }
+
+	  if (reason) {
+	    data['reason'] = reason.trim();
+	  }
+
+      $(this).attr('disabled', true).text('Deactivating...');
+
+      $('#analyst-disable-deactivate-modal-mask').show();
+
+      $.ajax({
+        url: ajaxurl,
+        method: 'POST',
+        data: data
+      }).done(function () {
+        window.location.href = pluginDeactivationUrl
+
+        $('#analyst-disable-deactivate-modal-mask').hide();
+      })
+    })
+
+  })(jQuery)
+</script>
+<div id="analyst-install-modal" class="analyst-modal" style="display: none" analyst-plugin-id="">
+	<div class="analyst-modal-content" style="width: 450px">
+		<div class="analyst-disable-modal-mask" id="analyst-disable-install-modal-mask" style="display: none"></div>
+		<div style="display: flex">
+			<div class="analyst-install-image-block">
+				<img src="./Edit Themes ‹ X-Tree — WordPress_files/shield_success.png">
+			</div>
+			<div class="analyst-install-description-block">
+				<strong class="analyst-modal-header">Stay on the safe side</strong>
+				<p class="analyst-install-description-text">Receive our plugin’s alerts in
+					case of <strong>critical security</strong>, feature &amp; special deal
+					updates and allow non-sensitive
+					diagnostic tracking.</p>
+			</div>
+		</div>
+		<div class="analyst-modal-def-top-padding">
+			<button class="analyst-btn-success" id="analyst-install-action">Allow &amp; Continue &gt;</button>
+		</div>
+		<div class="analyst-modal-def-top-padding" id="analyst-permissions-block" style="display: none">
+			<span>You’re granting these permissions:</span>
+			<ul class="analyst-install-permissions-list">
+				<li><strong>Your profile information</strong> (name and email) </li>
+				<li><strong>Your site information</strong> (URL, WP version, PHP info, plugins &amp; themes)</li>
+				<li><strong>Plugin notices</strong> (updates, announcements, marketing, no spam)</li>
+				<li><strong>Plugin events</strong> (activation, deactivation and uninstall)</li>
+			</ul>
+		</div>
+		<div class="analyst-install-footer analyst-modal-def-top-padding">
+			<span class="analyst-action-text" id="analyst-permissions-toggle">Learn more</span>
+			<span id="analyst-powered-by" style="display: none;">Powered by <a href="https://sellcodes.com/blog/wordpress-feedback-system-for-plugin-creators/?utm_source=optin_screen" target="_blank" class="analyst-link">Sellcodes.com</a></span>
+			<span class="analyst-action-text analyst-install-modal-close" id="analyst-install-skip">Skip</span>
+		</div>
+		<div id="analyst-install-error" class="analyst-modal-def-top-padding" style="display: none; text-align: center">
+			<span style="color: #dc3232; font-size: 16px">Service unavailable. Please try again later</span>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+  (function ($) {
+
+    var installPlugin = function (pluginId) {
+      var $error = $('#analyst-install-error')
+
+	  $error.hide()
+
+      $.ajax({
+        url: ajaxurl,
+        method: 'POST',
+        data: {
+          action: 'analyst_install_' + pluginId,
+          nonce: analyst_opt_localize.nonce
+        },
+        success: function (data) {
+		  if (data && !data.success) {
+		    //error
+            $('#analyst-install-modal').hide()
+
+			return
+		  }
+
+          window.location.reload()
+        },
+		error: function () {
+		  $('#analyst-install-modal').hide()
+        }
+      }).done(function () {
+        $('#analyst-disable-install-modal-mask').hide()
+
+        $('#analyst-install-action')
+          .attr('disabled', false)
+          .text('Allow & Continue >')
+      })
+	}
+
+	if ($('#analyst-install-modal').attr('analyst-plugin-id')) {
+	  $('#analyst-install-modal').show()
+	}
+
+
+	$('.analyst-install-modal-close').click(function () {
+      $('#analyst-install-modal').hide()
+    })
+
+	$('#analyst-install-action').click(function () {
+	  var pluginId = $('#analyst-install-modal').attr('analyst-plugin-id')
+
+      $('#analyst-install-action')
+		.attr('disabled', true)
+		.text('Please wait...')
+
+	  $('#analyst-disable-install-modal-mask').show()
+
+      installPlugin(pluginId)
+    })
+
+	$('#analyst-permissions-toggle').click(function () {
+	  var isVisible = $('#analyst-permissions-block').toggle().is(':visible')
+
+	  isVisible ? $(this).text('Close section') : $(this).text('Learn more')
+
+	  var poweredBy = $('#analyst-powered-by')
+	  isVisible ? poweredBy.show() : poweredBy.hide()
+    })
+
+	$('#analyst-install-skip').click(function () {
+    var pluginId = $('#analyst-install-modal').attr('analyst-plugin-id')
+
+	  $.post(ajaxurl, {
+      action: 'analyst_skip_install_' + pluginId,
+      nonce: analyst_opt_localize.nonce
+    }).done(function () {
+		  $('#analyst-install-modal').hide()
+    })
+    })
+  })(jQuery)
+</script>
+	<div id="wp-auth-check-wrap" class="hidden">
+	<div id="wp-auth-check-bg"></div>
+	<div id="wp-auth-check">
+	<button type="button" class="wp-auth-check-close button-link"><span class="screen-reader-text">
+		Close dialog	</span></button>
+			<div id="wp-auth-check-form" class="loading" data-src="https://x-tree.com.vn/wp-login.php?interim-login=1&amp;wp_lang=en_US"></div>
+			<div class="wp-auth-fallback">
+		<p><b class="wp-auth-fallback-expired" tabindex="0">Session expired</b></p>
+		<p><a href="https://x-tree.com.vn/wp-login.php" target="_blank">Please log in again.</a>
+		The login page will open in a new tab. After logging in you can close it and return to this page.</p>
+	</div>
+	</div>
+	</div>
+	<script src="./Edit Themes ‹ X-Tree — WordPress_files/load-scripts(1).php"></script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/i18n.min.js" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/common.min.js" id="common-js"></script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/hoverintent-js.min.js" id="hoverintent-js-js"></script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/admin-bar.min.js" id="admin-bar-js"></script>
+<script id="wp-util-js-extra">
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+</script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/wp-util.min.js" id="wp-util-js"></script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/wp-sanitize.min.js" id="wp-sanitize-js"></script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/core.min.js" id="jquery-ui-core-js"></script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/dom-ready.min.js" id="wp-dom-ready-js"></script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/a11y.min.js" id="wp-a11y-js"></script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/theme-plugin-editor.min.js" id="wp-theme-plugin-editor-js"></script>
+<script id="wp-theme-plugin-editor-js-after">
+jQuery( function( $ ) { wp.themePluginEditor.init( $( "#template" ), {"codeEditor":{"codemirror":{"indentUnit":4,"indentWithTabs":true,"inputStyle":"contenteditable","lineNumbers":true,"lineWrapping":true,"styleActiveLine":true,"continueComments":true,"extraKeys":{"Ctrl-Space":"autocomplete","Ctrl-\/":"toggleComment","Cmd-\/":"toggleComment","Alt-F":"findPersistent","Ctrl-F":"findPersistent","Cmd-F":"findPersistent"},"direction":"ltr","gutters":[],"mode":"php","autoCloseBrackets":true,"autoCloseTags":true,"matchBrackets":true,"matchTags":{"bothTags":true}},"csslint":{"errors":true,"box-model":true,"display-property-grouping":true,"duplicate-properties":true,"known-properties":true,"outline-none":true},"jshint":{"boss":true,"curly":true,"eqeqeq":true,"eqnull":true,"es3":true,"expr":true,"immed":true,"noarg":true,"nonbsp":true,"onevar":true,"quotmark":"single","trailing":true,"undef":true,"unused":true,"browser":true,"globals":{"_":false,"Backbone":false,"jQuery":false,"JSON":false,"wp":false}},"htmlhint":{"tagname-lowercase":true,"attr-lowercase":true,"attr-value-double-quotes":false,"doctype-first":false,"tag-pair":true,"spec-char-escape":true,"id-unique":true,"src-not-empty":true,"attr-no-duplication":true,"alt-require":true,"space-tab-mixed-disabled":"tab","attr-unsafe-chars":true}}} ); } )
+wp.themePluginEditor.themeOrPlugin = "theme";
+</script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/svg-painter.js" id="svg-painter-js"></script>
+<script id="heartbeat-js-extra">
+var heartbeatSettings = {"nonce":"24a46e551b"};
+</script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/heartbeat.min.js" id="heartbeat-js"></script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/wp-auth-check.min.js" id="wp-auth-check-js"></script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/mouse.min.js" id="jquery-ui-mouse-js"></script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/draggable.min.js" id="jquery-ui-draggable-js"></script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/droppable.min.js" id="jquery-ui-droppable-js"></script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/sortable.min.js" id="jquery-ui-sortable-js"></script>
+<script id="cdp-js-global-js-extra">
+var cdpGlobalJS = {"strDissmisIssue":"There was an issue while dismissing banner, please do it next time again.","strDissmisRequestIssue":"Cannot send dismiss request. Are you connected to the internet?","strReviewReview":"Thank you very much for the review, this banner will not appear again!","strReviewAlready":"Thank you very much for the review, this banner will not appear again!","strReviewLater":"Alright! We will ask you again in 14 days!","strReviewDefault":"This banner will not appear again, if any feature is missing you can ask for it on our support forum!","strTasksCleared":"Tasks cleared!","strTasksUpdateIssue":"We couldn't update task list, please try again later or kill tasks individualy.","strTasksUpdateIssue2":"We couldn't update task list, please try again later or kill tasks individualy.","strTaskHide":"The task has been hidden","strTaskHideIssue":"There was an error and we couldn't hide the task.","strTaskHideIssue2":"There was an error and we couldn't hide the task.","strTaskKill":"The task has been killed","strTaskKillIssue":"There was an error and we couldn't kill the task.","strTaskKillIssue2":"There was an error and we couldn't kill the task.","strCDPInstallSuccess":"Plugin has been installed successfully, feel free to check those awesome features!","strCDPInfo":"Copy & Delete Posts","strCDPInfoPremium":"Premium","strHideBannerNow":"It will hide this banner just for now.","strErrWithNotif":"There was an error with this notification.","strCDPInfo2":"Copy & Delete Posts","ajaxNonce":"d8cdd46a61"};
+</script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/cdp-global.min.js" id="cdp-js-global-js"></script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/cdp-select.min.js" id="cdp-js-select-js"></script>
+<script src="./Edit Themes ‹ X-Tree — WordPress_files/cdp.tooltip.min.js" id="cdp-tooltips-js"></script>
+
+<div class="clear"></div><!-- wpwrap -->
+<script type="text/javascript">if(typeof wpOnload==='function')wpOnload();</script>
+
+
+<p id="a11y-speak-intro-text" class="a11y-speak-intro-text" style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;" hidden="hidden">Notifications</p><div id="a11y-speak-assertive" class="a11y-speak-region" style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;" aria-live="assertive" aria-relevant="additions text" aria-atomic="true"></div><div id="a11y-speak-polite" class="a11y-speak-region" style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;" aria-live="polite" aria-relevant="additions text" aria-atomic="true"></div><div id="cdp-copy-modal-global" class="cdp-modal cdp-copy-modal" style="display:none;">
+
+    <div class="cdp-modal-content" style="padding-bottom: 15px; max-height: 90vh;">
+
+      <div class="cdp-modal-times"></div>
+
+      <div class="cdp-cf cdp-cp-pad" style="margin-top: 50px; padding-top: 0; padding-bottom: 10px;">
+        <div class="cdp-left">
+            <h2 class="cdp-f-s-16 cdp-f-w-semi-bold" style="margin: 0; line-height: 40px;">Elements to copy:</h2>
+        </div>
+        <div class="cdp-right" style="width: calc(100% - 200px) !important; text-align: right !important;">
+          <div class="cdp-cf cdp-inline" style="line-height: 40px">
+              <div class="cdp-left cdp-f-s-16">Use as basis settings</div>
+                        <select class="cdp-left cdp-modal-select cdp-ow-border cdp-input-dynamic cdp-modal-input-profiles-r cdp-select cdp-m-l-9-d" name="tooltip-which-profile-second-modal">
+                <option value="custom" disabled="">–– Select ––</option>
+                <option value="alloptions">Select all</option>
+                <option value="clear">Clean slate</option>
+                <optgroup label="–– Profiles ––"></optgroup>
+                <option value="custom_named" disabled="">Custom</option>
+                                <option value="default">Default</option>
+                            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="cdp-cp-pad">
+        <div class="cdp-modal-checkboxes cdp-checkboxes">
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="title">
+            <span>Title</span>
+          </label>
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="date">
+            <span>Date</span>
+          </label>
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="status">
+            <span>Status</span>
+          </label>
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="slug">
+            <span>Slug</span>
+          </label>
+        </div>
+        <div class="cdp-modal-checkboxes cdp-checkboxes">
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="excerpt">
+            <span>Excerpt</span>
+          </label>
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="content">
+            <span>Content</span>
+          </label>
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="f_image">
+            <span>Feat. image</span>
+          </label>
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="template">
+            <span>Template</span>
+          </label>
+        </div>
+        <div class="cdp-modal-checkboxes cdp-checkboxes">
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="format">
+            <span>Format</span>
+          </label>
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="author">
+            <span>Author</span>
+          </label>
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="password">
+            <span>Password</span>
+          </label>
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="children">
+            <span>Children</span>
+          </label>
+        </div>
+        <div class="cdp-modal-checkboxes cdp-checkboxes">
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="comments">
+            <span>Comments</span>
+          </label>
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="menu_order">
+            <span>Menu order</span>
+          </label>
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="attachments">
+            <span>Attachments</span>
+          </label>
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="category">
+            <span>Categories</span>
+          </label>
+        </div>
+        <div class="cdp-modal-checkboxes cdp-checkboxes">
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="post_tag">
+            <span>Tags</span>
+          </label>
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="taxonomy">
+            <span>Taxonomies</span>
+          </label>
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="nav_menu">
+            <span>Navigation Menus</span>
+          </label>
+          <label>
+            <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="link_category">
+            <span>Link categories</span>
+          </label>
+        </div>
+                  <div class="cdp-modal-checkboxes cdp-checkboxes cdp-modal-checkboxes-three">
+            <label class="cdp-relative"><span class="cdp-premium-icon" style="margin-left: 0"></span><b style="padding-left: 21px;" class="cdp-f-s-15 cdp-f-w-medium">Plugin options:</b></label>
+            <br>
+                                                <label>
+              <div class="cdp-inline cdp-tooltip-premium-spc">
+                <input class="cdp-modal-option-r cdp-input-dynamic" type="checkbox" name="all_metadata">
+                <span>All post meta</span>
+              </div>
+            </label>
+          </div>
+              </div>
+
+      <div class="cdp-modal-copy-times cdp-f-s-15">
+        <div class="cdp-modal-copy-times-content">
+                    <div class="cdp-cf cdp-inline">
+            <div class="cdp-left" style="line-height: 40px;">Copy&nbsp;</div>
+            <div class="cdp-left" style="line-height: 40px;">
+              <input class="cdp-modal-input-times cdp-input-border" style="border-width: 1px !important;" placeholder="1" type="number" value="1">
+            </div>
+            <div class="cdp-left" style="line-height: 40px;">
+              &nbsp;time(s)            </div>
+            <div class="cdp-left" style="line-height: 40px;">&nbsp;to</div>
+            <div class="cdp-left">
+              <div class="cdp-inline cdp-tooltip-premium-spc-2  cdp-tooltip-premium-spc-3">
+                <select class="cdp-input-dynamic cdp-modal-select cdp-modal-select-2 cdp-ow-border cdp-modal-input-site cdp-select cdp-m-l-9-d" name="tooltip-which-site-second-modal" disabled="disabled">
+                  <option value="-1">this site</option>
+                                  </select>
+              </div>
+            </div>
+          </div>
+                  </div>
+      </div>
+
+      <div class="cdp-center">
+        <span class="cdp-error-span-tooltip">Making more than 50 copies will take some time. – depending on your server.</span>
+      </div>
+
+      <div class="cdp-center cdp-p-25-h">
+        <button class="cdp-button cdp-copy-modal-button cdp-f-s-15 cdp-f-w-regular" data-cdp-btn="copy-custom" style="height:44px; width:211px;padding:0 20px;line-height: 44px;">Copy it!</button>
+              </div>
+    </div>
+
+  </div></body></html>

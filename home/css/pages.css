@@ -1,0 +1,54 @@
+a
+{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.sub-list
+{
+    color: #fff;
+    padding-left: 16px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.sub-list li
+{
+    list-style-style: circle;
+    list-style: disc !important;
+    padding: 5px;
+}
+.card.tier
+{
+    transition: all .2s ease-out;
+    padding: 24px;
+}
+.card.tier:hover
+{
+    scale: 1.1;
+}
+.card.tier img
+{
+    max-height: 50px;
+    object-fit: contain;
+}
+.hide
+{
+    display: none;
+}
+table.subscriptions
+{
+    border-color: var(--bs-border-color);
+    padding: 24px;
+    color: #fff;
+    text-align: center;
+    margin-top: 36px;
+}
+table.subscriptions th
+{
+    padding: 12px;
+    font-size: 1.3rem;
+}
+table.subscriptions td
+{
+    padding: 12px;
+    border: 1px solid var(--bs-border-color);
+}
